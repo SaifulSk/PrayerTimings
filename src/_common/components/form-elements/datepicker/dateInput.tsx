@@ -50,7 +50,8 @@ function DateInput({
         selected={value}
         onChange={onChange}
         onBlur={onBlur}
-        onFocus={onFocus ? onFocus : () => { }}
+        // onFocus={onFocus ? onFocus : () => { }}
+        onFocus={e => e.target.blur()}
         placeholderText={placeholder}
         name={name}
         id={id}
