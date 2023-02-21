@@ -9,8 +9,8 @@ function App() {
         <React.Fragment>
             <Router>
                 <Routes>
-                    <Route path={URLS.HOME} element={<Home />} />
-                    {/* <Route path="*" element={<Page404 />} /> */}
+                    {/* <Route path={URLS.HOME} element={<Home />} /> */}
+                    <Route path="*" element={<Home />} />
                 </Routes>
             </Router>
         </React.Fragment>
