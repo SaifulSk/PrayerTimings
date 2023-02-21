@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkprayer_timing=self.webpackChunkprayer_timing||[]).push([[845],{4576:function(n,r,e){e.r(r),e.d(r,{default:function(){return a}});var i=e(2791),t=e(184);function a(){return(0,t.jsx)(i.Fragment,{children:(0,t.jsxs)("div",{className:"main-container not-found-wrap",children:[(0,t.jsx)("h1",{children:"404"}),(0,t.jsx)("h2",{children:"Not Found"})]})})}}}]);
-//# sourceMappingURL=Page404.fae44d2a.chunk.js.map

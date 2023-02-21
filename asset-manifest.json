@@ -1,21 +1,19 @@
 {
   "files": {
     "main.css": "/PrayerTimings/static/css/main.551feeb1.css",
-    "main.js": "/PrayerTimings/static/js/main.66062146.js",
+    "main.js": "/PrayerTimings/static/js/main.47e6fdea.js",
     "Home.css": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css",
     "Home.js": "/PrayerTimings/static/js/Home.75c9eda1.chunk.js",
-    "Page404.js": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js",
     "static/js/373.94da8ba4.chunk.js": "/PrayerTimings/static/js/373.94da8ba4.chunk.js",
     "index.html": "/PrayerTimings/index.html",
     "main.551feeb1.css.map": "/PrayerTimings/static/css/main.551feeb1.css.map",
-    "main.66062146.js.map": "/PrayerTimings/static/js/main.66062146.js.map",
+    "main.47e6fdea.js.map": "/PrayerTimings/static/js/main.47e6fdea.js.map",
     "Home.3194dd5b.chunk.css.map": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css.map",
     "Home.75c9eda1.chunk.js.map": "/PrayerTimings/static/js/Home.75c9eda1.chunk.js.map",
-    "Page404.fae44d2a.chunk.js.map": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js.map",
     "373.94da8ba4.chunk.js.map": "/PrayerTimings/static/js/373.94da8ba4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.551feeb1.css",
-    "static/js/main.66062146.js"
+    "static/js/main.47e6fdea.js"
   ]
 }
