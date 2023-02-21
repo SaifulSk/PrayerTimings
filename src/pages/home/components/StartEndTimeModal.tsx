@@ -18,7 +18,7 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
 
     useEffect(()=>{
         if(formValues) {
-            const day = moment(formValues.date).format("DD")
+            const day = moment(formValues.date).format("D")
             const month = moment(formValues.date).format("MMMM")
             const waqt = formValues.waqt.value
             let x:any = data
@@ -45,7 +45,7 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
                 contentClassName='custom-modal'
             >
                 <Modal.Header>
-                    {moment(formValues.date).format("DD MMMM ")+formValues?.waqt?.value+" Timings"}
+                    {moment(formValues.date).format("D MMMM ")+formValues?.waqt?.value+" Timings"}
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body">
