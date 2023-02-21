@@ -79,7 +79,7 @@ function SelectInput({
         value={value}
         onChange={onChange}
         isClearable={isClearable == undefined ? true : isClearable}
-        isSearchable={isSearchable == undefined ? true : isSearchable}
+        isSearchable={false}
         styles={dark ? stylesDark : styles}
         onBlur={onBlur}
         name={name}

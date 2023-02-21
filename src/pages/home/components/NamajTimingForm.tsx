@@ -66,8 +66,7 @@ export default function NamajTimingForm() {
                         }) => (
                             <DateInput
                                 onChange={(e) => {
-                                    onChange(e);
-                                    e.preventDefault()
+                                    onChange(e)
                                 }}
                                 onBlur={onBlur}
                                 value={value}
@@ -93,10 +92,7 @@ export default function NamajTimingForm() {
                         }) => (
                             <SelectInput
                                 name={name}
-                                onChange={e=>{
-                                    onChange(e)
-                                    e.preventDefault()
-                                }}
+                                onChange={onChange}
                                 onBlur={onBlur}
                                 inputRef={ref}
                                 options={WAQT_OPTIONS}
