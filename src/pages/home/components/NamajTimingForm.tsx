@@ -73,7 +73,7 @@ export default function NamajTimingForm() {
                                 // maxDate={new Date()}
                                 dateFormat={"dd-MMMM-yyyy"}
                                 inputRef={ref}
-                                error={errors.date}
+                                // error={errors.date}
                                 placeholder="Select Date"
                             />
                         )}
@@ -97,7 +97,7 @@ export default function NamajTimingForm() {
                                 inputRef={ref}
                                 options={WAQT_OPTIONS}
                                 value={value}
-                                error={errors.waqt}
+                                // error={errors.waqt}
                                 placeholder="Select Waqt"
                             />
                         )}
