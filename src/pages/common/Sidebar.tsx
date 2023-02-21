@@ -62,7 +62,7 @@ function Sidebar() {
             <span className="open-nav"
               // onClick={() => toogleSideBarOnOff(true)}
             >
-              <img src="/images/menu.svg" alt="menu" />
+              <img src="images/menu.svg" alt="menu" />
             </span>
           </button>
           {/* {
