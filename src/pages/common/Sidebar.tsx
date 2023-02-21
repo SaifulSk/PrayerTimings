@@ -89,7 +89,7 @@ function Sidebar() {
               // onClick={toogleProfileMenuBarOnOff}
               // onClick={goToHome}
             >
-              <img src="/images/logo.png" alt="User" />
+              <img src="images/logo.png" alt="User" style={{width: "50%",position: "relative",right: "-20px"}}/>
             </button>
           }
         </div>
