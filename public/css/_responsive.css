@@ -1,0 +1,20 @@
+
+@media(min-width: 1024px) and (max-width: 1365px){
+
+}
+@media (min-width:768px) and (max-width: 1023px){
+
+}
+@media(max-width: 767px){
+
+}
+@media(max-width: 479px){
+
+}
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+    
+    .right-sidenav {padding-top: 15px;}
+    .right-sidenav a {font-size: 18px;}
+}

@@ -1,0 +1,8210 @@
+{
+    "January": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "February": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "March": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "April": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "May": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "June": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "July": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "August": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "September": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "October": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "November": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    },
+    "December": {
+      "1": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "2": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "3": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "4": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "5": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "6": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "7": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "8": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "9": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "10": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "11": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "12": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "13": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "14": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "15": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "16": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "17": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "18": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "19": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "20": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "21": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "22": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "23": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "24": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "25": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "26": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "27": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "28": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:16"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:27",
+          "End": "5:00"
+        },
+        "Maghrib": {
+          "Start": "5:08"
+        },
+        "Isha": {
+          "Start": "6:23"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "29": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "30": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      },
+      "31": {
+        "Fajr": {
+          "Start": "4:51",
+          "End": "6:17"
+        },
+        "Duhr": {
+          "Start": "12:02"
+        },
+        "Asr": {
+          "Start": "3:28",
+          "End": "5:01"
+        },
+        "Maghrib": {
+          "Start": "5:09"
+        },
+        "Isha": {
+          "Start": "6:24"
+        },
+        "Tahajjud": {
+          "Start": "11:00"
+        }
+      }
+    }
+  }
