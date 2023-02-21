@@ -10,7 +10,7 @@ function App() {
             <Router>
                 <Routes>
                     <Route path={URLS.HOME} element={<Home />} />
-                    <Route path="*" element={<Page404 />} />
+                    {/* <Route path="*" element={<Page404 />} /> */}
                 </Routes>
             </Router>
         </React.Fragment>
