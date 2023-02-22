@@ -2,18 +2,36 @@ import React, { useEffect, useState } from 'react'
 
 function Sidebar() {
 
+
+  const toogleSideBarOnOff = (status: boolean) => {
+    var sidebarCollapseElement = document.getElementById("sidebarCollapse");
+    var sidebarElement = document.getElementById("sidebar");
+    var overlayElement = document.getElementById("overlay");
+    if (status) {
+      if (sidebarCollapseElement) {
+        sidebarElement?.classList.add("active");
+        overlayElement?.classList.add("active");
+      }
+    } else {
+      if (sidebarCollapseElement) {
+        sidebarElement?.classList.remove("active");
+        overlayElement?.classList.remove("active");
+      }
+    }
+  }
+
   return (
     <section className="top-nav">
       {/*LEFT MENU*/}
       {/*Navbar*/}
       <nav id="sidebar" className="mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" style={{ overflow: 'visible' }}>
         <div id="dismiss"
-        // onClick={() => toogleSideBarOnOff(false)}
+        onClick={() => toogleSideBarOnOff(false)}
         >
           <i className="fa fa-arrow-left" />
         </div>
         <div className="sidebar-header">
-          <img src="/images/logo.png" alt="Inside Rodeo" /> Inside Rodeo
+          <img src="/PrayerTimings/images/logo.png" alt="" /> Islam
         </div>
         {/* {
           userDetails &&
@@ -21,8 +39,8 @@ function Sidebar() {
             Welcome, {userDetails && userDetails.full_name && userDetails.full_name !== " " ? userDetails.full_name : ' User'}
           </div>
         } */}
-        {/* <ul className="list-unstyled components">
-          <li>
+        <ul className="list-unstyled components">
+          {/* <li>
             <Link to={URLS.HOME}>Rodeo Events</Link>
           </li>
           {userDetails ? (
@@ -43,26 +61,26 @@ function Sidebar() {
                   </li>
               )
             : null
-          }
+          } */}
           <li>
-            <a href="https://sa.insiderodeo.com" target="_blank">Contact Us</a>
+            <a href="https://quran.com" target="_blank">Go to Quran.com</a>
           </li>
-          {
+          {/* {
             userDetails ?
               <li>
                 <Link to="#" onClick={(e) => logOut(e)}>Logout</Link>
               </li> : null
-          }
+          } */}
 
-        </ul> */}
+        </ul>
       </nav>
       <nav className="navbar navbar-light">
         <div className="container-fluid">
           <button type="button" id="sidebarCollapse" className="btn-none">
             <span className="open-nav"
-              // onClick={() => toogleSideBarOnOff(true)}
+              onClick={() => toogleSideBarOnOff(true)}
             >
-              <img src="images/menu.svg" alt="menu" />
+              <img src="/PrayerTimings/images/menu.svg" alt="menu" />
             </span>
           </button>
           {/* {
@@ -89,7 +107,7 @@ function Sidebar() {
               // onClick={toogleProfileMenuBarOnOff}
               // onClick={goToHome}
             >
-              <img src="images/logo.png" />
+              <img src="/PrayerTimings/images/logo.png" />
             </button>
           }
         </div>
