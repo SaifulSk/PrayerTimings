@@ -89,7 +89,7 @@ a:focus {
 
 #dismiss:hover {
     background: #fff;
-    color: #d50000;
+    color: #0a9246;
 }
 
 .overlay {
@@ -141,7 +141,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #ae6700;
+    color: #0a9246;
     background: #fff;
 }
 
