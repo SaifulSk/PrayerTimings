@@ -23,12 +23,12 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
             const waqt = formValues.waqt.value
             let x:any = data
             let msg = "<p>"
-            if(x[month][day][waqt]["Start"]) {
-                msg = msg + "Start: <span style='font-weight: bold'>" + x[month][day][waqt]["Start"] + "</span><br/>"
-            }
-            if(x[month][day][waqt]["End"]) {
-                msg = msg + "End: <span style='font-weight: bold'>" + x[month][day][waqt]["End"] + "</span>"
-            }
+            // if(x[month][day][waqt]["Start"]) {
+                msg = msg + "Start: <span style='font-weight: bold'>" + x[month][day][waqt]["Start"] + "</span><br/>End: <span style='font-weight: bold'>" + (x[month][day][waqt]["End"] || "Until Next Waqt") + "</span>"
+            // }
+            // if(x[month][day][waqt]["End"]) {
+                // msg = msg + "End: <span style='font-weight: bold'>" + x[month][day][waqt]["End"] + "</span>"
+            // }
             msg = msg + "</p>"
             setMessage(msg)
         }

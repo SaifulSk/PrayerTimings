@@ -4,9 +4,9 @@
 const styles = {
   option: (provided:any, state:any) => ({
     ...provided,
-    backgroundColor: state.isSelected ? '#d71c2d' : '#FFFFFF',
+    backgroundColor: state.isSelected ? '#000' : '#FFFFFF',
     ':hover': {
-      backgroundColor: '#ff606e',
+      backgroundColor: '#626262',
       color: '#ffffff'
     },
   }),

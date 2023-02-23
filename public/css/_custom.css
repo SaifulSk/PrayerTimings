@@ -89,7 +89,7 @@ a:focus {
 
 #dismiss:hover {
     background: #fff;
-    color: #d50000;
+    color: #0a9246;
 }
 
 .overlay {
@@ -141,7 +141,7 @@ a:focus {
 }
 
 #sidebar ul li a:hover {
-    color: #ae6700;
+    color: #0a9246;
     background: #fff;
 }
 
@@ -659,7 +659,7 @@ a.article:hover {
   }
   
   .page-title {
-    color: #9e005d;
+    color: #0a9246;
     font-size: xx-large;
     font-weight: 900;
     display: flex;
@@ -1317,12 +1317,12 @@ a.article:hover {
   .rkmd-btn.btn-orange {
     color: #fff;
     /* background-color: #f97919; */
-    background-color: #9e005d;
+    background-color: #0a9246;
   }
   
   .rkmd-btn.btn-orange:hover {
     /* background-color: #ffa829; */
-    background-color: #9e005d;
+    background-color: #0a9246;
   }
   
   .rkmd-btn.btn-amber {
@@ -1390,11 +1390,11 @@ a.article:hover {
   
   .rkmd-btn.btn-red {
     color: #fff;
-    background-color: #f44336;
+    background-color: #000;
   }
   
   .rkmd-btn.btn-red:hover {
-    background-color: #f6675d;
+    background-color: #626262;
   }
   
   .rkmd-btn.btn-yellow {
@@ -2348,7 +2348,7 @@ a.article:hover {
   /* IOS add to home popup css */
   
   .bottom_fixedsec {
-    background: #9e005d;
+    background: #0a9246;
     padding: 10px;
     color: #ffffff;
     position: fixed;
@@ -3082,7 +3082,7 @@ a.article:hover {
   
     .cms-wrap .owl-item {
       padding: 10px;
-      background: #9e005d;
+      background: #0a9246;
       margin: 10px 10px;
       color: #fff;
       border-radius: 10px;
@@ -3137,5 +3137,5 @@ a.article:hover {
     }
   
     .react-datepicker__day--selected {
-      background-color: #d71c2d!important;
+      background-color: #000!important;
     }
