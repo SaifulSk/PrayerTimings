@@ -1,14 +1,14 @@
 
 import React from 'react'
 import Sidebar from '../common/Sidebar'
+import Counter from './components/Counter'
 
-export default function LearnArabic() {
+export default function TasbihCounter() {
     return (
         <React.Fragment>
             <Sidebar />
             <section className="main-container">
-                <h2 className="page-title">Arabic Letters</h2>
-                <img src={"/PrayerTimings/images/letters.jpg"} style={{width:"100%",marginTop:"25px"}}/>              
+                <Counter />            
             </section>
         </React.Fragment>
     )

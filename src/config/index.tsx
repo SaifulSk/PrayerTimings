@@ -9,5 +9,6 @@ export const WAQT_OPTIONS = [
 
 export const URLS = {
     HOME: '/PrayerTimings/',
-    LEARN_ARABIC: '/PrayerTimings/learn-arabic'
+    LEARN_ARABIC: '/PrayerTimings/learn-arabic',
+    TASBIH_COUNTER: '/PrayerTimings/tasbih-counter',
 }

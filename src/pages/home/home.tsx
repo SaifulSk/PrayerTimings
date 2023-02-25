@@ -23,6 +23,7 @@ export default function Home() {
         <h2>Page</h2>
         <h3>{time}</h3> */}
         <NamajTimingForm />
+        {/* <iframe src={"https://myislam.org/99-names-of-allah"} /> */}
       </section>
     </React.Fragment>
 

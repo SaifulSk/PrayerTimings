@@ -66,6 +66,9 @@ function Sidebar() {
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link>
                     </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.TASBIH_COUNTER}>Tasbih Counter</Link>
+                    </li>
                 </ul>
             </nav>
             <nav className="navbar navbar-light">
