@@ -3143,7 +3143,7 @@ a.article:hover {
     }
 
     .count-val {
-      font-size: 200px;
+      font-size: 250px;
       font-weight: bold;
       display: grid;
       justify-items: center;
@@ -3159,16 +3159,22 @@ a.article:hover {
       justify-items: center;
       color: #fff;
       background-color: #0a9246;
+      margin-left: 35vw;
     }
 
     .reset-btn-wrap {
-      font-size: 60px;
       height: 90px;
       width: 90px;
-      line-height: 80px;
+      line-height: 82px;
       border-radius: 50px;
       display: grid;
       justify-items: center;
       color: #fff;
       background-color: #ff0000;
+      margin-top: 20px;
+      margin-left: 35vw;
+    }
+
+    .reset-btn-wrap img {
+      width: 60px;
     }
