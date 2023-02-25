@@ -3150,29 +3150,23 @@ a.article:hover {
     }
 
     .plus-btn-wrap {
-      font-size: 60px;
-      height: 80px;
-      width: 80px;
-      line-height: 75px;
-      border-radius: 50px;
-      display: grid;
-      justify-items: center;
       color: #fff;
-      background-color: #0a9246;
-      margin-left: 35vw;
+      font-size: 60px;
+      text-align: center;
     }
 
-    .reset-btn-wrap {
+    .plus-btn-wrap a {
       height: 80px;
+      display: inline-flex;
       width: 80px;
-      line-height: 75px;
+      background-color: #0a9246;
       border-radius: 50px;
-      display: grid;
-      justify-items: center;
-      color: #fff;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .reset-btn-wrap a {
       background-color: #ff0000;
-      margin-top: 20px;
-      margin-left: 35vw;
     }
 
     .reset-btn-wrap img {

@@ -12,7 +12,7 @@ export default function Counter() {
                 <a onClick={()=>setValue(value+1)}><i className="fa fa-plus"/></a>
             </div>
             {(value>0) &&
-                <div className="reset-btn-wrap">
+                <div className="plus-btn-wrap reset-btn-wrap">
                     <a onClick={()=>setValue(0)}><img src="/PrayerTimings/images/reset.png"/></a>
                 </div>
             }
