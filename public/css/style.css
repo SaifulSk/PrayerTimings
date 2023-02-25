@@ -3143,7 +3143,7 @@ a.article:hover {
     }
 
     .count-val {
-      font-size: 250px;
+      font-size: 200px;
       font-weight: bold;
       display: grid;
       justify-items: center;
@@ -3151,9 +3151,9 @@ a.article:hover {
 
     .plus-btn-wrap {
       font-size: 60px;
-      height: 90px;
-      width: 90px;
-      line-height: 80px;
+      height: 80px;
+      width: 80px;
+      line-height: 75px;
       border-radius: 50px;
       display: grid;
       justify-items: center;
@@ -3163,9 +3163,9 @@ a.article:hover {
     }
 
     .reset-btn-wrap {
-      height: 90px;
-      width: 90px;
-      line-height: 82px;
+      height: 80px;
+      width: 80px;
+      line-height: 75px;
       border-radius: 50px;
       display: grid;
       justify-items: center;
@@ -3176,5 +3176,5 @@ a.article:hover {
     }
 
     .reset-btn-wrap img {
-      width: 60px;
+      width: 55px;
     }
