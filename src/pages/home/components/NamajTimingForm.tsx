@@ -51,69 +51,72 @@ export default function NamajTimingForm() {
     },[])
 
     return (
-        <form onSubmit={handleSubmit(onSubmit)} noValidate>
-            <div className="form-box-new">
-                <div className="mb-3">
-                    <label className="form-label">Date</label>
-                    {/* <input type="date" className="form-control react-datepicker"/> */}
-                    <Controller
-                        control={control}
-                        name="date"
-                        render={({
-                            field: { onChange, onBlur, value, name, ref },
-                            fieldState: { invalid, isTouched, isDirty, error },
-                            formState,
-                        }) => (
-                            <DateInput
-                                onChange={(e) => {
-                                    onChange(e)
-                                }}
-                                onBlur={onBlur}
-                                value={value}
-                                // maxDate={new Date()}
-                                dateFormat={"dd-MMMM-yyyy"}
-                                inputRef={ref}
-                                // error={errors.date}
-                                placeholder="Select Date"
-                            />
-                        )}
+        <>
+            <h2 className="page-title">Prayer Timings</h2>
+            <form onSubmit={handleSubmit(onSubmit)} noValidate>
+                <div className="form-box-new">
+                    <div className="mb-3">
+                        <label className="form-label">Date</label>
+                        {/* <input type="date" className="form-control react-datepicker"/> */}
+                        <Controller
+                            control={control}
+                            name="date"
+                            render={({
+                                field: { onChange, onBlur, value, name, ref },
+                                fieldState: { invalid, isTouched, isDirty, error },
+                                formState,
+                            }) => (
+                                <DateInput
+                                    onChange={(e) => {
+                                        onChange(e)
+                                    }}
+                                    onBlur={onBlur}
+                                    value={value}
+                                    // maxDate={new Date()}
+                                    dateFormat={"dd-MMMM-yyyy"}
+                                    inputRef={ref}
+                                    // error={errors.date}
+                                    placeholder="Select Date"
+                                />
+                            )}
+                        />
+                        {/* {errors?.date?.message && <div className="invalid-feedback">{String(errors?.date?.message)}</div>} */}
+                    </div>
+                    <div className="mb-3">
+                        <label className="form-label">Namaj Waqt</label>
+                        <Controller
+                            control={control}
+                            name="waqt"
+                            render={({
+                                field: { onChange, onBlur, value, name, ref },
+                                fieldState: { invalid, isTouched, isDirty, error },
+                                formState,
+                            }) => (
+                                <SelectInput
+                                    name={name}
+                                    onChange={onChange}
+                                    onBlur={onBlur}
+                                    inputRef={ref}
+                                    options={WAQT_OPTIONS}
+                                    value={value}
+                                    // error={errors.waqt}
+                                    placeholder="Select Waqt"
+                                />
+                            )}
+                        />
+                    </div>
+                    <div className="btn-wrap">
+                        <button type="submit" className="rkmd-btn btn-lg btn-orange ripple-effect w-100 mt-3">View Timing</button>
+                    </div>
+                </div>
+                {   showStartEndTimeModal && formValues &&
+                    <StartEndTimeModal
+                        shouldShow={showStartEndTimeModal}
+                        formValues={formValues}
+                        onClose={onCloseStartEndTimeModal}
                     />
-                    {/* {errors?.date?.message && <div className="invalid-feedback">{String(errors?.date?.message)}</div>} */}
-                </div>
-                <div className="mb-3">
-                    <label className="form-label">Namaj Waqt</label>
-                    <Controller
-                        control={control}
-                        name="waqt"
-                        render={({
-                            field: { onChange, onBlur, value, name, ref },
-                            fieldState: { invalid, isTouched, isDirty, error },
-                            formState,
-                        }) => (
-                            <SelectInput
-                                name={name}
-                                onChange={onChange}
-                                onBlur={onBlur}
-                                inputRef={ref}
-                                options={WAQT_OPTIONS}
-                                value={value}
-                                // error={errors.waqt}
-                                placeholder="Select Waqt"
-                            />
-                        )}
-                    />
-                </div>
-                <div className="btn-wrap">
-                    <button type="submit" className="rkmd-btn btn-lg btn-orange ripple-effect w-100 mt-3">View Timing</button>
-                </div>
-            </div>
-            {   showStartEndTimeModal && formValues &&
-                <StartEndTimeModal
-                    shouldShow={showStartEndTimeModal}
-                    formValues={formValues}
-                    onClose={onCloseStartEndTimeModal}
-                />
-            }
-        </form>
+                }
+            </form>
+        </>
     )
 }

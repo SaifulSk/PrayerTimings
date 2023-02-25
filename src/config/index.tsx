@@ -8,5 +8,6 @@ export const WAQT_OPTIONS = [
 ]
 
 export const URLS = {
-    HOME: '/',
+    HOME: '/PrayerTimings/',
+    LEARN_ARABIC: '/PrayerTimings/learn-arabic'
 }

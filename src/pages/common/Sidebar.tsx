@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom';
+import { URLS } from '../../config';
 import ConfirmModal from '../home/components/ConfirmModal';
 
 function Sidebar() {
 
     const [showConfirmModal,setShowConfirmModal] = useState<boolean>(false)
+    const navigate = useNavigate()
 
     const toogleSideBarOnOff = (status: boolean) => {
         var sidebarCollapseElement = document.getElementById("sidebarCollapse");
@@ -34,6 +37,10 @@ function Sidebar() {
         window.open("https://quran.com","_blank")
     }
 
+    const goToHome = () => {
+        navigate(URLS.HOME)
+    }
+
     return (
         <section className="top-nav">
             {/*LEFT MENU*/}
@@ -42,94 +49,40 @@ function Sidebar() {
                 <div id="dismiss" onClick={() => toogleSideBarOnOff(false)}>
                     <i className="fa fa-arrow-left" />
                 </div>
-                <div className="sidebar-header" style={{color:"#000"}}>
+                <div className="sidebar-header" style={{color:"#000",fontWeight: "bold"}}>
                     {/* <img src="/PrayerTimings/images/logo.png" alt="" /> */}
-                    <span style={{color:"#0a9246",fontWeight: "bold"}}>Islamic </span>Know How
+                    <span style={{color:"#0a9246"}}>Islamic </span>KnowHow
                 </div>
-                {/* {
-                    userDetails &&
-                    <div className="head-user">
-                        Welcome, {userDetails && userDetails.full_name && userDetails.full_name !== " " ? userDetails.full_name : ' User'}
-                    </div>
-                } */}
                 <ul className="list-unstyled components">
-                    {/* <li>
-                        <Link to={URLS.HOME}>Rodeo Events</Link>
-                    </li>
-                    {userDetails ? (
-                        <li>
-                        <Link to={URLS.USER.PROFILE}>My Profile</Link>
-                        </li>
-                    ): <li>
-                        <Link to={URLS.LOGIN}>Login</Link>
-                    </li>
-                    }
-                    {
-                        cmsList && cmsList.length ? 
-                        cmsList.map((cms: any) =>
-                            <li key={cms.id}>
-                                <a onClick={()=>gotoCmsPage(cms.id)}>
-                                    {cms.title}
-                                </a>
-                            </li>
-                        )
-                        : null
-                    } */}
-                    <li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <a onClick={openConfirmModal}>Go to Quran.com</a>
                     </li>
-                    <li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.HOME}>Prayer Timings</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <a href="https://muslimnames.com" target="_blank">Muslim Baby Names</a>
                     </li>
-                    {/* {
-                        userDetails ?
-                        <li>
-                            <Link to="#" onClick={(e) => logOut(e)}>Logout</Link>
-                        </li> : null
-                    } */}
-
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link>
+                    </li>
                 </ul>
             </nav>
             <nav className="navbar navbar-light">
                 <div className="container-fluid">
-                <button type="button" id="sidebarCollapse" className="btn-none">
-                    <span className="open-nav"
-                    onClick={() => toogleSideBarOnOff(true)}
-                    >
-                    <img src="/PrayerTimings/images/menu.svg" alt="menu" />
-                    </span>
-                </button>
-                {/* {
-                    [RODEO_PAGE_NAME.EVENT_GAME_LIST, RODEO_PAGE_NAME.EVENT_GAME_DETAILS].includes(page) && (
-                    // statusMessageSelector && statusMessageSelector.status_text &&
-                    statusMessageSelector && statusMessageSelector.length &&
-                    <div className="status-bar-wrap">
-                        <Marquee direction="left" loop={0} pauseOnHover={true} speed={60}>
-                        {statusMessageSelector}
-                        </Marquee>
-                    </div>
-                    )} */}
-
-                {
-                    // userDetails &&
-                    <button
-                    className="navbar-toggler btn-none d-inline-block ml-auto user-image"
-                    type="button"
-                    data-bs-toggle="collapse"
-                    data-bs-target="#navbarCollapse"
-                    aria-controls="navbarCollapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                    // onClick={toogleProfileMenuBarOnOff}
-                    // onClick={goToHome}
-                    >
+                    <button type="button" id="sidebarCollapse" className="btn-none">
+                        <span className="open-nav"
+                            onClick={() => toogleSideBarOnOff(true)}
+                        >
+                        <img src="/PrayerTimings/images/menu.svg" alt="menu" />
+                        </span>
+                    </button>
+                    <button className="navbar-toggler btn-none d-inline-block ml-auto user-image" type="button" onClick={goToHome}>
                         <img src="/PrayerTimings/images/logo.png" />
                     </button>
-                }
                 </div>
             </nav>
             <div className="overlay" id="overlay" onClick={() => toogleSideBarOnOff(false)} />
-            {/* IOS Scrren Add to home scrren option popup */}
             {
                 showConfirmModal &&
                     <ConfirmModal
