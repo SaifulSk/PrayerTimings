@@ -76,7 +76,8 @@ a:focus {
     line-height: 31px;
     text-align: center;
     /* background: #ff0000; */
-    background: #d6d6d6;
+    background: #fff;
+    color: #0a9246;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -116,8 +117,8 @@ a:focus {
     padding: 15px;
     /* background: #ff71c4; */
     /* background: #ff0000; */
-    /* background: #000; */
-    background: #d6d6d6;
+    background: #000;
+    /* background: #d6d6d6; */
 }
 
 #sidebar .sidebar-header img {
@@ -355,7 +356,8 @@ a.article:hover {
     /* background: #d10b0e url('../images/bg-all.jpg') 50% 50% no-repeat;
               background-size: cover; */
     /* background: #fff; */
-    background: #f3fbf7;
+    /* background: #f3fbf7; */
+    background: #000000;
   }
   
   .join-bg {
@@ -629,7 +631,7 @@ a.article:hover {
     padding: 10px;
     z-index: 10;
     /* background: #000; */
-    background: #d6d6d6;
+    background: #0a9246;
   }
   
   .user-image {
@@ -1655,7 +1657,7 @@ a.article:hover {
   }
   
   .form-box-new .form-label {
-    color: #000;
+    color: #fff;
     line-height: 1;
     margin: 25px 0 15px;
   }
@@ -3147,6 +3149,7 @@ a.article:hover {
       font-weight: bold;
       display: grid;
       justify-items: center;
+      color: #fff;
     }
 
     .plus-btn-wrap {

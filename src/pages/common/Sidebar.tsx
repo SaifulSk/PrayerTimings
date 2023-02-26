@@ -49,9 +49,9 @@ function Sidebar() {
                 <div id="dismiss" onClick={() => toogleSideBarOnOff(false)}>
                     <i className="fa fa-arrow-left" />
                 </div>
-                <div className="sidebar-header" style={{color:"#000",fontWeight: "bold"}}>
+                <div className="sidebar-header" style={{fontWeight: "bold"}}>
                     {/* <img src="/PrayerTimings/images/logo.png" alt="" /> */}
-                    <span style={{color:"#0a9246"}}>Islamic </span>KnowHow
+                    Islamic <span style={{color:"#0a9246"}}>KnowHow</span>
                 </div>
                 <ul className="list-unstyled components">
                     <li onClick={() => toogleSideBarOnOff(false)}>
