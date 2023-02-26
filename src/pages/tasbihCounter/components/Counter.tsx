@@ -3,7 +3,25 @@ import React, { useEffect, useState } from 'react'
 export default function Counter() {
 
     const [value, setValue] = useState<number>(0)
+    
+    useEffect(()=>{
+        
+        let c=Number(localStorage.getItem("tasbihCount"))
 
+        if(c>0) {
+            setValue(c)
+        }
+
+        return () => {
+            console.log("Out",value)
+        }
+        
+    },[])
+
+    useEffect(()=>{
+        localStorage.setItem("tasbihCount",String(value))
+    },[value])
+    
     return (
         <>
             <h2 className="page-title">Tasbih Counter</h2>
