@@ -62,7 +62,7 @@ a:focus {
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     /* background: rgb(137, 2, 3); */
-    background: #000;
+    background: #0a9246;
     /* background: linear-gradient(180deg, rgba(137, 2, 3, 1) 0%, rgba(2, 63, 170, 1) 100%); */
 }
 
