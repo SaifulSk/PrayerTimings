@@ -3175,3 +3175,9 @@ a.article:hover {
     .reset-btn-wrap img {
       width: 55px;
     }
+
+    .modal-header {
+      background-color: #0a9246;
+      color: white;
+      font-weight: bold;
+    }
