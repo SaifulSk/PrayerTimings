@@ -11,4 +11,5 @@ export const URLS = {
     HOME: '/PrayerTimings/',
     LEARN_ARABIC: '/PrayerTimings/learn-arabic',
     TASBIH_COUNTER: '/PrayerTimings/tasbih-counter',
+    HIJRI_CALENDAR: '/PrayerTimings/hijri-calendar',
 }

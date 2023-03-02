@@ -69,6 +69,9 @@ function Sidebar() {
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.TASBIH_COUNTER}>Tasbih Counter</Link>
                     </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.HIJRI_CALENDAR}>Hijri Calendar</Link>
+                    </li>
                 </ul>
             </nav>
             <nav className="navbar navbar-light">
