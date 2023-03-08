@@ -5,6 +5,7 @@ import React, { useEffect, useState } from 'react'
 import moment from 'moment';
 import NamajTimingForm from './components/NamajTimingForm';
 import Sidebar from '../common/Sidebar';
+import UpcomingPrayerTime from './components/UpcomingPrayerTime';
 
 export default function Home() {
 
@@ -24,6 +25,7 @@ export default function Home() {
         <h3>{time}</h3> */}
         <NamajTimingForm />
         {/* <iframe src={"https://myislam.org/99-names-of-allah"} /> */}
+        <UpcomingPrayerTime />
       </section>
     </React.Fragment>
 

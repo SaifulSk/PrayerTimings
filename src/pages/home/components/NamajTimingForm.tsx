@@ -8,12 +8,12 @@ import SelectInput from '../../../_common/components/form-elements/selectinput/s
 import { WAQT_OPTIONS } from '../../../config';
 import StartEndTimeModal from './StartEndTimeModal';
 
-interface UserDetailsFormValues {
+interface NamajTimingFormValues {
     date: any;
     waqt: any;
 }
 
-const userDetailsSchema = yup.object().shape({
+const NamajTimingSchema = yup.object().shape({
     date: yup
         .string(),
     waqt: yup
@@ -23,8 +23,8 @@ const userDetailsSchema = yup.object().shape({
 
 export default function NamajTimingForm() {
 
-    const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<UserDetailsFormValues>({
-        resolver: yupResolver(userDetailsSchema),
+    const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<NamajTimingFormValues>({
+        resolver: yupResolver(NamajTimingSchema),
         defaultValues: {
             date: new Date(),
             waqt: '',
@@ -45,7 +45,7 @@ export default function NamajTimingForm() {
     }
 
     useEffect(()=>{
-        console.log("6:51"<"6:52")
+        // console.log("6:51"<"6:52")
         // let x = 
         // setValue("waqt",{value: x,label: x})
     },[])

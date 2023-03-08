@@ -24,7 +24,7 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
             let x:any = data
             let msg = "<p>"
             // if(x[month][day][waqt]["Start"]) {
-                msg = msg + "Start: <span style='font-weight: bold'>" + x[month][day][waqt]["Start"] + "</span><br/>End: <span style='font-weight: bold'>" + (x[month][day][waqt]["End"] || "Until Next Waqt") + "</span>"
+                msg = msg + "Start: <span style='font-weight: bold'>" + moment(x[month][day][waqt]["Start"], "hh:mm").format("hh:mm a") + "</span><br/>End: <span style='font-weight: bold'>" + (x[month][day][waqt]["End"] ? moment(x[month][day][waqt]["End"], "hh:mm").format("hh:mm a") : "Until Next Waqt") + "</span>"
             // }
             // if(x[month][day][waqt]["End"]) {
                 // msg = msg + "End: <span style='font-weight: bold'>" + x[month][day][waqt]["End"] + "</span>"

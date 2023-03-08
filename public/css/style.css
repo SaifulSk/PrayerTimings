@@ -3181,3 +3181,8 @@ a.article:hover {
       color: white;
       font-weight: bold;
     }
+
+    h3.page-title {
+      margin-top: 40px;
+      font-size: x-large;
+    }
