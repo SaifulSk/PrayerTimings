@@ -1,24 +1,25 @@
 import React, { useEffect, useState } from 'react'
 import data from '../../../config/data.json'
 import moment from 'moment';
+import getCurrentWaqt from '../../common/functions';
 
 export default function UpcomingPrayerTime() {
 
     const day = moment(new Date()).format("D")
     const month = moment(new Date()).format("MMMM")
-    const time = moment(new Date()).format("HH:mm")
     const [upcomingTime, setUpcomingTime] = useState<any>()
     const [waqt, setWaqt] = useState<any>()
     
     useEffect(()=>{
         let x:any = data
-        let y:any
-        Object.keys(x[month][day]).map((w:any,i:any)=>{
-            console.log(time)
-            if(time<=x[month][day][w]["Start"] && !y) {
-                y=w
-            }
-        })
+        let y = getCurrentWaqt()
+        let waqts = Object.keys(x[month][day])
+        let i = waqts.indexOf(y)
+        if(i==(waqts.length-1)) {
+            y=waqts[0]
+        } else {
+            y=waqts[i+1]
+        }
         setWaqt(y)
         setUpcomingTime(moment(x[month][day][y]["Start"], "HH:mm").format("h:mm a"))
     },[])

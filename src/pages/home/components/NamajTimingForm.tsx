@@ -7,8 +7,7 @@ import DateInput from '../../../_common/components/form-elements/datepicker/date
 import SelectInput from '../../../_common/components/form-elements/selectinput/selectInput';
 import { WAQT_OPTIONS } from '../../../config';
 import StartEndTimeModal from './StartEndTimeModal';
-import moment from 'moment';
-import data from '../../../config/data.json'
+import getCurrentWaqt from '../../common/functions';
 
 interface NamajTimingFormValues {
     date: any;
@@ -45,20 +44,9 @@ export default function NamajTimingForm() {
     const onCloseStartEndTimeModal = () => {
         setShowStartEndTimeModal(false)
     }
-
-    const day = moment(new Date()).format("D")
-    const month = moment(new Date()).format("MMMM")
-    const time = moment(new Date()).format("HH:mm")
     
     useEffect(()=>{
-        let x:any = data
-        let y:any
-        Object.keys(x[month][day]).map((w:any,i:any)=>{
-            console.log(time)
-            if(time>x[month][day][w]["Start"]) {
-                y=w
-            }
-        })
+        let y = getCurrentWaqt()
         setValue("waqt",{value:y,label:y})
     },[])
 
