@@ -24,10 +24,10 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
             let x:any = data
             let msg = "<p>"
             // if(x[month][day][waqt]["Start"]) {
-                msg = msg + "Start: <span style='font-weight: bold'>" + moment(x[month][day][waqt]["Start"], "hh:mm").format("hh:mm a") + "</span><br/>End: <span style='font-weight: bold'>" + (x[month][day][waqt]["End"] ? moment(x[month][day][waqt]["End"], "hh:mm").format("hh:mm a") : "Until Next Waqt") + "</span>"
+                msg = msg + "Start: <span>" + moment(x[month][day][waqt]["Start"], "HH:mm").format("h:mm a") + "</span><br/>End: <span>" + (x[month][day][waqt]["End"] ? moment(x[month][day][waqt]["End"], "HH:mm").format("h:mm a") : "Until Next Waqt") + "</span>"
             // }
             // if(x[month][day][waqt]["End"]) {
-                // msg = msg + "End: <span style='font-weight: bold'>" + x[month][day][waqt]["End"] + "</span>"
+                // msg = msg + "End: <span>" + x[month][day][waqt]["End"] + "</span>"
             // }
             msg = msg + "</p>"
             setMessage(msg)
@@ -48,7 +48,7 @@ export default function StartEndTimeModal({ onSuccess, onClose, shouldShow, form
                     {moment(formValues.date).format("D MMMM ")+formValues?.waqt?.value+" Timings"}
                 </Modal.Header>
                 <Modal.Body>
-                    <div className="modal-body">
+                    <div className="modal-body content">
                         {parse(message)}
                     </div>
                 </Modal.Body>
