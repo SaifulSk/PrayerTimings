@@ -6,7 +6,7 @@ export default function getCurrentWaqt() {
     const month = moment(new Date()).format("MMMM")
     const time = moment(new Date()).format("HH:mm")
     let x:any = data
-    let y:any
+    let y:any = "Tahajjud"
     Object.keys(x[month][day]).map((w:any,i:any)=>{
         console.log(time)
         if(time>=x[month][day][w]["Start"]) {
