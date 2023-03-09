@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { URLS } from '../../config';
-import ConfirmModal from '../home/components/ConfirmModal';
+import ConfirmModal from './ConfirmModal';
 
 function Sidebar() {
 

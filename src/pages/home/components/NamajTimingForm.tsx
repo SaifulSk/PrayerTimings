@@ -7,7 +7,8 @@ import DateInput from '../../../_common/components/form-elements/datepicker/date
 import SelectInput from '../../../_common/components/form-elements/selectinput/selectInput';
 import { WAQT_OPTIONS } from '../../../config';
 import StartEndTimeModal from './StartEndTimeModal';
-import getCurrentWaqt from '../../common/functions';
+import getCurrentWaqt from '../../../config/functions';
+import SetLocationModal from './SetLocationModal';
 
 interface NamajTimingFormValues {
     date: any;
@@ -33,6 +34,7 @@ export default function NamajTimingForm() {
     })
 
     const [showStartEndTimeModal, setShowStartEndTimeModal] = useState<boolean>(false)
+    const [showSetLocationModal, setShowSetLocationModal] = useState<boolean>(false)
     const [formValues, setFormValues] = useState<any>()
 
     const onSubmit = (values: any) => {
@@ -44,6 +46,10 @@ export default function NamajTimingForm() {
     const onCloseStartEndTimeModal = () => {
         setShowStartEndTimeModal(false)
     }
+
+    const onCloseSetLocationModal = () => {
+        setShowSetLocationModal(false)
+    }
     
     useEffect(()=>{
         let y = getCurrentWaqt()
@@ -52,7 +58,12 @@ export default function NamajTimingForm() {
 
     return (
         <>
-            <h2 className="page-title">Prayer Timings</h2>
+            <h2 className="page-title">
+                Prayer Timings
+                <a style={{right: "15px",position: "absolute"}} onClick={()=>{setShowSetLocationModal(true)}}>
+                    <i className="fa-solid fa-location-dot" />
+                </a>
+            </h2>            
             <form onSubmit={handleSubmit(onSubmit)} noValidate>
                 <div className="form-box-new">
                     <div className="mb-3">
@@ -114,6 +125,12 @@ export default function NamajTimingForm() {
                         shouldShow={showStartEndTimeModal}
                         formValues={formValues}
                         onClose={onCloseStartEndTimeModal}
+                    />
+                }
+                {   showSetLocationModal &&
+                    <SetLocationModal
+                        shouldShow={showSetLocationModal}
+                        onClose={onCloseSetLocationModal}
                     />
                 }
             </form>

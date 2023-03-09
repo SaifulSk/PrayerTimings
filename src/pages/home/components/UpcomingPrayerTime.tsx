@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import data from '../../../config/data.json'
 import moment from 'moment';
-import getCurrentWaqt from '../../common/functions';
+import getCurrentWaqt from '../../../config/functions';
 
 export default function UpcomingPrayerTime() {
 
