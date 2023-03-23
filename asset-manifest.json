@@ -1,29 +1,29 @@
 {
   "files": {
     "main.css": "/PrayerTimings/static/css/main.551feeb1.css",
-    "main.js": "/PrayerTimings/static/js/main.2cbf059b.js",
+    "main.js": "/PrayerTimings/static/js/main.b1239e39.js",
     "HijriCalendar.js": "/PrayerTimings/static/js/HijriCalendar.663a51c0.chunk.js",
     "Home.css": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css",
     "Home.js": "/PrayerTimings/static/js/Home.7f5aacda.chunk.js",
     "LearnArabic.js": "/PrayerTimings/static/js/LearnArabic.ccc366a9.chunk.js",
     "Page404.js": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js",
-    "TasbihCounter.js": "/PrayerTimings/static/js/TasbihCounter.ae4f8ae7.chunk.js",
+    "TasbihCounter.js": "/PrayerTimings/static/js/TasbihCounter.9e6ab3c5.chunk.js",
     "static/js/399.0d88ab2e.chunk.js": "/PrayerTimings/static/js/399.0d88ab2e.chunk.js",
     "static/js/153.5de461d1.chunk.js": "/PrayerTimings/static/js/153.5de461d1.chunk.js",
     "index.html": "/PrayerTimings/index.html",
     "main.551feeb1.css.map": "/PrayerTimings/static/css/main.551feeb1.css.map",
-    "main.2cbf059b.js.map": "/PrayerTimings/static/js/main.2cbf059b.js.map",
+    "main.b1239e39.js.map": "/PrayerTimings/static/js/main.b1239e39.js.map",
     "HijriCalendar.663a51c0.chunk.js.map": "/PrayerTimings/static/js/HijriCalendar.663a51c0.chunk.js.map",
     "Home.3194dd5b.chunk.css.map": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css.map",
     "Home.7f5aacda.chunk.js.map": "/PrayerTimings/static/js/Home.7f5aacda.chunk.js.map",
     "LearnArabic.ccc366a9.chunk.js.map": "/PrayerTimings/static/js/LearnArabic.ccc366a9.chunk.js.map",
     "Page404.fae44d2a.chunk.js.map": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js.map",
-    "TasbihCounter.ae4f8ae7.chunk.js.map": "/PrayerTimings/static/js/TasbihCounter.ae4f8ae7.chunk.js.map",
+    "TasbihCounter.9e6ab3c5.chunk.js.map": "/PrayerTimings/static/js/TasbihCounter.9e6ab3c5.chunk.js.map",
     "399.0d88ab2e.chunk.js.map": "/PrayerTimings/static/js/399.0d88ab2e.chunk.js.map",
     "153.5de461d1.chunk.js.map": "/PrayerTimings/static/js/153.5de461d1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.551feeb1.css",
-    "static/js/main.2cbf059b.js"
+    "static/js/main.b1239e39.js"
   ]
 }

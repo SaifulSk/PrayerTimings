@@ -3249,3 +3249,11 @@ a.article:hover {
       color: white;
       font-weight: 600;
     }
+
+    .zikr-meaning {
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: bold;
+      padding: 5px;
+    }
