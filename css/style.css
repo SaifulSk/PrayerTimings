@@ -3220,7 +3220,7 @@ a.article:hover {
       display: flex;
       justify-content: center;
       align-items: center;
-      color: #000;
+      color: #fff;
       font-size: 30px;
       text-align: center;
       padding-top: 20px;
@@ -3230,7 +3230,7 @@ a.article:hover {
       height: 40px;
       display: inline-flex;
       width: 40px;
-      background-color: #fff;
+      background-color: #000;
       border-radius: 50px;
       justify-content: center;
       align-items: center;
