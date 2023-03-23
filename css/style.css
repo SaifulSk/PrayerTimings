@@ -3244,3 +3244,8 @@ a.article:hover {
     .zikr-wrap .reset-btn-wrap img {
       width: 25px;
     }
+
+    h4 {
+      color: white;
+      font-weight: 600;
+    }
