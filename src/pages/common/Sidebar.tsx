@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { URLS } from '../../config';
 import ConfirmModal from './ConfirmModal';
+import moment from 'moment';
+import RamadanModal from '../home/components/RamadanModal';
 
 function Sidebar() {
 
     const [showConfirmModal,setShowConfirmModal] = useState<boolean>(false)
+    const [showRamadanModal,setShowRamadanModal] = useState<boolean>(false)
     const navigate = useNavigate()
 
     const toogleSideBarOnOff = (status: boolean) => {
@@ -42,8 +45,31 @@ function Sidebar() {
     }
 
     useEffect(()=>{
-        localStorage.setItem("location",JSON.stringify({label: "Kolkata", value: "+00:00:00"}))
+        let loc = localStorage.getItem("location")
+        if(!loc) {
+            localStorage.setItem("location",JSON.stringify({label: "Kolkata", value: "+00:00:00"}))
+        }
+    },[])    
+
+    useEffect(()=>{
+        let date = localStorage.getItem("ramadanDate")
+        if(date) {
+            let d = moment(new Date()).format("DD-MM")
+            if(d!=date) {
+                setShowRamadanModal(true)
+            }
+        } else {
+            localStorage.setItem("ramadanDate", moment(new Date()).format("DD-MM"))
+        }
     },[])
+
+    useEffect(()=>{
+        if(showRamadanModal) {
+            setTimeout(()=>{
+                setShowRamadanModal(false)
+            },5000)
+        }
+    },[showRamadanModal])
 
     return (
         <section className="top-nav">
@@ -96,6 +122,7 @@ function Sidebar() {
                 </div>
             </nav>
             <div className="overlay" id="overlay" onClick={() => toogleSideBarOnOff(false)} />
+
             {
                 showConfirmModal &&
                     <ConfirmModal
@@ -106,6 +133,8 @@ function Sidebar() {
                         type={2}
                     />
             }
+
+            { showRamadanModal && <RamadanModal shouldShow={showRamadanModal} /> }
             
         </section>
     )
