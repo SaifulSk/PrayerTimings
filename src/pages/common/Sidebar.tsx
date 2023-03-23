@@ -62,6 +62,9 @@ function Sidebar() {
                         <a onClick={openConfirmModal}>Go to Quran.com</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
+                        <a href="https://sunnah.com" target="_blank">Go to Sunnah.com</a>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
