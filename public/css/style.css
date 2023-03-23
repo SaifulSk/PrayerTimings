@@ -3145,7 +3145,7 @@ a.article:hover {
     }
 
     .count-val {
-      font-size: 200px;
+      font-size: 150px;
       font-weight: bold;
       display: grid;
       justify-items: center;
@@ -3154,18 +3154,19 @@ a.article:hover {
 
     .plus-btn-wrap {
       color: #fff;
-      font-size: 60px;
+      font-size: 40px;
       text-align: center;
     }
 
     .plus-btn-wrap a {
-      height: 80px;
+      height: 60px;
       display: inline-flex;
-      width: 80px;
+      width: 60px;
       background-color: #0a9246;
       border-radius: 50px;
       justify-content: center;
       align-items: center;
+      margin-bottom: 10px;
     }
 
     .reset-btn-wrap a {
@@ -3173,7 +3174,7 @@ a.article:hover {
     }
 
     .reset-btn-wrap img {
-      width: 55px;
+      width: 35px;
     }
 
     .modal-header {
@@ -3189,4 +3190,70 @@ a.article:hover {
 
     .content span {
       font-weight: bold;
+    }
+
+    .zikr-wrap {
+      background: #0a9246;
+      border-radius: 15px;
+      margin: 15px 0;
+    }
+
+    .zikr-img {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      border-radius: 15px;
+    }
+
+    .zikr-wrap .zikr-img img {
+      max-height: 75px;
+      padding: 10px;
+      max-width: 100%;
+    }
+
+    .zikr-wrap span {
+      font-size: 50px;
+    }
+
+    .zikr-wrap .plus-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .zikr-wrap .plus-btn-wrap a {
+      height: 40px;
+      display: inline-flex;
+      width: 40px;
+      background-color: #000;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }  
+
+    .zikr-wrap .reset-btn-wrap a {
+      background-color: #ff0000;
+    }
+
+    .zikr-wrap .reset-btn-wrap img {
+      width: 25px;
+    }
+
+    h4 {
+      color: white;
+      font-weight: 600;
+    }
+
+    .zikr-meaning {
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: bold;
+      padding: 5px;
     }

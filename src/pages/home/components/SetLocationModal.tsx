@@ -30,15 +30,15 @@ export default function SetLocationModal({ onClose, shouldShow }: SetLocationMod
         },
     })
 
-    const onSubmit = () => {
-
+    const onSubmit = (values: any) => {
+        localStorage.setItem("location",JSON.stringify(values.location))
         onClose()
     }
 
     useEffect(()=>{
         let loc = localStorage.getItem("location")
         if(loc) {
-            setValue("location",{value:loc, label: loc})
+            setValue("location", JSON.parse(loc))
         }
     },[])
 
@@ -70,7 +70,7 @@ export default function SetLocationModal({ onClose, shouldShow }: SetLocationMod
                                 onChange={onChange}
                                 onBlur={onBlur}
                                 inputRef={ref}
-                                options={Object.keys(LOCATIONS).map((l:any)=>({value:l,label:l}))}
+                                options={LOCATIONS}
                                 value={value}
                                 placeholder="Select location"
                             />
@@ -82,7 +82,7 @@ export default function SetLocationModal({ onClose, shouldShow }: SetLocationMod
                     <div className="btn-wrap mb-3">
                         <button type="button"
                             className="rkmd-btn btn-lg btn-red ripple-effect w-100 mt-3"
-                            onClick={onSubmit}>
+                            onClick={handleSubmit(onSubmit)}>
                             Submit
                         </button>
                     </div>

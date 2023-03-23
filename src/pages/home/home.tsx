@@ -5,10 +5,6 @@ import UpcomingPrayerTime from './components/UpcomingPrayerTime';
 
 export default function Home() {
 
-    useEffect(()=>{
-        localStorage.setItem("location","Kolkata")
-    },[])
-
     return (
         <React.Fragment>
             <Sidebar />

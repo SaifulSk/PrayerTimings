@@ -13,7 +13,7 @@ export default function Counter() {
         }
 
         return () => {
-            console.log("Out",value)
+            // console.log("Out",value)
         }
         
     },[])

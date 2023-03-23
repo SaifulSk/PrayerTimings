@@ -41,6 +41,10 @@ function Sidebar() {
         navigate(URLS.HOME)
     }
 
+    useEffect(()=>{
+        localStorage.setItem("location",JSON.stringify({label: "Kolkata", value: "+00:00:00"}))
+    },[])
+
     return (
         <section className="top-nav">
             {/*LEFT MENU*/}
