@@ -59,6 +59,7 @@ function Sidebar() {
                 setShowRamadanModal(true)
             }
         } else {
+            setShowRamadanModal(true)
             localStorage.setItem("ramadanDate", moment(new Date()).format("DD-MM"))
         }
     },[])
@@ -67,7 +68,7 @@ function Sidebar() {
         if(showRamadanModal) {
             setTimeout(()=>{
                 setShowRamadanModal(false)
-            },5000)
+            },7000)
         }
     },[showRamadanModal])
 

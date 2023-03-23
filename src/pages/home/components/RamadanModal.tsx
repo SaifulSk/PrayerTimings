@@ -22,7 +22,7 @@ export default function RamadanModal({ shouldShow }: RamadanModalProps) {
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body content">
-                        <img src="images/Ramadan.webp" />
+                        <img src="/PrayerTimings/images/ramadan.webp" style={{width:"100%"}} />
                     </div>
                 </Modal.Body>
             </Modal>
