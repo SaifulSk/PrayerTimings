@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/PrayerTimings/static/css/main.551feeb1.css",
-    "main.js": "/PrayerTimings/static/js/main.0306232a.js",
+    "main.js": "/PrayerTimings/static/js/main.3845d1d3.js",
     "HijriCalendar.js": "/PrayerTimings/static/js/HijriCalendar.e266b0fb.chunk.js",
     "Home.css": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css",
-    "Home.js": "/PrayerTimings/static/js/Home.2034f6d9.chunk.js",
+    "Home.js": "/PrayerTimings/static/js/Home.dc53cf52.chunk.js",
     "LearnArabic.js": "/PrayerTimings/static/js/LearnArabic.736c2673.chunk.js",
     "Page404.js": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js",
     "TasbihCounter.js": "/PrayerTimings/static/js/TasbihCounter.ec8447f6.chunk.js",
@@ -12,10 +12,10 @@
     "static/js/553.823eba61.chunk.js": "/PrayerTimings/static/js/553.823eba61.chunk.js",
     "index.html": "/PrayerTimings/index.html",
     "main.551feeb1.css.map": "/PrayerTimings/static/css/main.551feeb1.css.map",
-    "main.0306232a.js.map": "/PrayerTimings/static/js/main.0306232a.js.map",
+    "main.3845d1d3.js.map": "/PrayerTimings/static/js/main.3845d1d3.js.map",
     "HijriCalendar.e266b0fb.chunk.js.map": "/PrayerTimings/static/js/HijriCalendar.e266b0fb.chunk.js.map",
     "Home.3194dd5b.chunk.css.map": "/PrayerTimings/static/css/Home.3194dd5b.chunk.css.map",
-    "Home.2034f6d9.chunk.js.map": "/PrayerTimings/static/js/Home.2034f6d9.chunk.js.map",
+    "Home.dc53cf52.chunk.js.map": "/PrayerTimings/static/js/Home.dc53cf52.chunk.js.map",
     "LearnArabic.736c2673.chunk.js.map": "/PrayerTimings/static/js/LearnArabic.736c2673.chunk.js.map",
     "Page404.fae44d2a.chunk.js.map": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js.map",
     "TasbihCounter.ec8447f6.chunk.js.map": "/PrayerTimings/static/js/TasbihCounter.ec8447f6.chunk.js.map",
@@ -24,6 +24,6 @@
   },
   "entrypoints": [
     "static/css/main.551feeb1.css",
-    "static/js/main.0306232a.js"
+    "static/js/main.3845d1d3.js"
   ]
 }
