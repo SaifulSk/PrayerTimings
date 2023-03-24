@@ -51,16 +51,18 @@ function Sidebar() {
         }
     },[])    
 
+    //Ramadan
     useEffect(()=>{
         let date = localStorage.getItem("ramadanDate")
+        let d = moment(new Date()).format("DD-MM")
         if(date) {
-            let d = moment(new Date()).format("DD-MM")
             if(d!=date) {
                 setShowRamadanModal(true)
+                localStorage.setItem("ramadanDate", d)
             }
         } else {
             setShowRamadanModal(true)
-            localStorage.setItem("ramadanDate", moment(new Date()).format("DD-MM"))
+            localStorage.setItem("ramadanDate", d)
         }
     },[])
 
@@ -68,7 +70,7 @@ function Sidebar() {
         if(showRamadanModal) {
             setTimeout(()=>{
                 setShowRamadanModal(false)
-            },7000)
+            },5000)
         }
     },[showRamadanModal])
 
@@ -89,13 +91,10 @@ function Sidebar() {
                         <a onClick={openConfirmModal}>Go to Quran.com</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a href="https://sunnah.com" target="_blank">Go to Sunnah.com</a>
+                        <a href="https://sunnah.com" target="_blank">Hadiths</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>
-                    </li>
-                    <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a href="https://muslimnames.com" target="_blank">Muslim Baby Names</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link>
@@ -105,6 +104,9 @@ function Sidebar() {
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HIJRI_CALENDAR}>Hijri Calendar</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <a href="https://muslimnames.com" target="_blank">Muslim Names</a>
                     </li>
                 </ul>
             </nav>

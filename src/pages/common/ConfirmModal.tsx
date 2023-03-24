@@ -24,7 +24,7 @@ export default function ConfirmModal({ onSuccess, onClose, shouldShow, message, 
             >
                 <Modal.Body>
                     <div className="modal-body">
-                        <h4 className="rider-name-content">{message}</h4>
+                        <h4 className="msg-text">{message}</h4>
                     </div>
                 </Modal.Body>
                 <Modal.Footer>
