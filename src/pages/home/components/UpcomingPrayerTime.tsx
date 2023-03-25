@@ -9,17 +9,23 @@ export default function UpcomingPrayerTime() {
     
     useEffect(()=>{
 
-        let day = moment(new Date()).format("D")
-        let month = moment(new Date()).format("MMMM")
+        let currentDate = moment(new Date())
+
+        let day = currentDate.format("D")
+        let month = currentDate.format("MMMM")
 
         let x:any = data
         let y = getCurrentWaqt()
         let waqts = Object.keys(x[month][day])
         let i = waqts.indexOf(y)
+        console.log(currentDate.format("HH:mm"))
         if(i==(waqts.length-1)) {
             y=waqts[0]
-            day = moment(new Date()).add(1,'days').format("D")
-            month = moment(new Date()).add(1,'days').format("MMMM")
+            let t = currentDate.format("HH:mm")
+            if(t>"22:00") {
+                day = currentDate.add(1,'days').format("D")
+                month = currentDate.add(1,'days').format("MMMM")
+            }
         } else {
             y=waqts[i+1]
         }

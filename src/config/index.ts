@@ -93,4 +93,13 @@ export const URLS = {
     LEARN_ARABIC: '/PrayerTimings/learn-arabic',
     TASBIH_COUNTER: '/PrayerTimings/tasbih-counter',
     HIJRI_CALENDAR: '/PrayerTimings/hijri-calendar',
+    NAMES_OF_ALLAH: '/PrayerTimings/99-names-of-Allah',
+}
+
+export const ACTIONS = {
+    NAMES_OF_ALLAH: 'ACTIONS/NAMES_OF_ALLAH'
+}
+
+export const SAGA_ACTIONS = {
+    NAMES_OF_ALLAH: 'SAGA_ACTIONS/NAMES_OF_ALLAH'
 }

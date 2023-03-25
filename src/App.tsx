@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { URLS } from './config';
+import NamesOfAllah from './pages/namesOfAllah';
 import HijriCalendar from './pages/hijriCalendar';
 import Home from './pages/home';
 import LearnArabic from './pages/learnArabic';
@@ -16,6 +17,7 @@ function App() {
                     <Route path={URLS.LEARN_ARABIC} element={<LearnArabic />} />
                     <Route path={URLS.TASBIH_COUNTER} element={<TasbihCounter />} />
                     <Route path={URLS.HIJRI_CALENDAR} element={<HijriCalendar />} />
+                    <Route path={URLS.NAMES_OF_ALLAH} element={<NamesOfAllah />} />
                     <Route path="*" element={<Page404 />} />
                 </Routes>
             </Router>

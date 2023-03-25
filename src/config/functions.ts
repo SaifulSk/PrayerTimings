@@ -15,3 +15,44 @@ export default function getCurrentWaqt() {
     })
     return y
 }
+
+export const extractErrorMessage = (e: any, defaultMessage = 'Please try again') => {
+  if (e && e.data && e.data.length) {
+    var err = e.data;
+    var errArrays = Object.values(err[0].errors);
+    var msg = '';
+    errArrays.map(x => {
+
+      msg = msg + ' ' + x;
+    })
+    return msg;
+  } else if (typeof (e.data) == 'object') {
+    var keys = Object.keys(e.data);
+    var values = Object.values(e.data);
+    var msg = '';
+    if (values && values.length) {
+      values.map((x: any, i: number) => {
+        if (typeof x == 'string') {
+          msg = x;
+          // return x;
+        }
+        else {
+          let errorvalues = Object.values(x)
+          if (errorvalues && errorvalues.length) {
+            errorvalues.map((k: any, index: number) => {
+              msg = msg + (index + 1) + ' : ' + k + '\n' + '\n';
+            })
+          }
+        }
+      })
+      return msg;
+    }
+    return defaultMessage
+  }
+  else if (typeof (e) === 'string') {
+    return e
+  }
+  else {
+    return defaultMessage
+  }
+}

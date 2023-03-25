@@ -38,6 +38,7 @@ function Sidebar() {
 
     const onConfirmModalSuccess = () => {
         window.open("https://quran.com","_blank")
+        setShowConfirmModal(false)
     }
 
     const goToHome = () => {
@@ -92,6 +93,9 @@ function Sidebar() {
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <a href="https://sunnah.com" target="_blank">Hadiths</a>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.NAMES_OF_ALLAH}>99 Names Of Allah</Link>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>

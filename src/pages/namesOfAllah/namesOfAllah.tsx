@@ -1,15 +1,14 @@
-
 import React from 'react'
 import Sidebar from '../common/Sidebar'
 import parse from 'html-react-parser'
+import AllahNamesList from './components/AllahNamesList'
 
-export default function HijriCalendar() {
+export default function NamesOfAllah() {
     return (
         <React.Fragment>
             <Sidebar />
             <section className="main-container">
-                <h2 className="page-title">Hijri Calendar</h2>
-                {/* <img src={"/PrayerTimings/images/letters.jpg"} style={{width:"100%",marginTop:"25px"}}/> */}
+                <AllahNamesList />
             </section>
         </React.Fragment>
     )
