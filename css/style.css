@@ -668,7 +668,7 @@ a.article:hover {
     font-weight: 900;
     display: flex;
     align-items: center;
-    margin: 15px 0 0 0;
+    margin: 15px 0 15px 0px;
   }
   
   .page-title span {
@@ -3204,6 +3204,8 @@ a.article:hover {
       align-items: center;
       background: #ffffff;
       border-radius: 15px;
+      font-size: 35px;
+      font-weight: 600;
     }
 
     .zikr-wrap .zikr-img img {
