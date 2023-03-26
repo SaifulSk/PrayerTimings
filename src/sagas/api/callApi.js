@@ -3,6 +3,8 @@ import axios from 'axios';
 export class CallApi {
   static GET(url, params, isAuth, isAdaptive) {
     return new Promise((resolve, reject) => {
+      // let headers = {'X-RapidAPI-Key': '7e39bc9c9amsh30015be1d7f86d6p11bfd1jsnbf88c4a6dfa3',
+      // 'X-RapidAPI-Host': 'allah-name.p.rapidapi.com'};
       let headers = {};
       if (isAuth || isAdaptive) {
         // const token = localStorage.getItem(STORAGE);

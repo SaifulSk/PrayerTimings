@@ -4,7 +4,7 @@ import { CallApi } from './api/callApi';
 export function* getNamesOfAllah(action: any): any {
     try {
         const data = action.payload;
-        const resp = yield call(CallApi.GET, "http://api.aladhan.com/asmaAlHusna", data);
+        const resp = yield call(CallApi.GET, "https://allah-name.p.rapidapi.com/name", data);
         if (resp.status >= 200 && resp.status < 300 && resp.data && resp.data.data) {
             action && action.callbackSuccess && action.callbackSuccess(resp.data);
         } else {
