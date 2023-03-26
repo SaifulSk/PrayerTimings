@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Modal } from 'react-bootstrap';
 import parse from 'html-react-parser'
-import data from '../../../config/data.json'
+import data from '../../../config/data/data.json'
 import moment from 'moment';
 
 interface StartEndTimeModalProps {

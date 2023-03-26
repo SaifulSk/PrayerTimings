@@ -1,5 +1,5 @@
 import moment from 'moment';
-import data from './data.json'
+import data from './data/data.json'
 
 export default function getCurrentWaqt() {
     const day = moment(new Date()).format("D")

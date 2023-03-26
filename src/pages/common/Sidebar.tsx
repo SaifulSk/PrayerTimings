@@ -89,19 +89,20 @@ function Sidebar() {
                 </div>
                 <ul className="list-unstyled components">
                     <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.NAMES_OF_ALLAH}>99 Names Of Allah</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <a onClick={openConfirmModal}>Go to Quran.com</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <a href="https://sunnah.com" target="_blank">Hadiths</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
-                        <Link to={URLS.NAMES_OF_ALLAH}>99 Names Of Allah</Link>
-                    </li>
-                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>
                     </li>
-                    <li onClick={() => toogleSideBarOnOff(false)}>
-                        <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link>
+                    <li onClick={() => {toogleSideBarOnOff(false);window.open("/PrayerTimings/qaida.pdf", "_blank")}}>
+                        {/* <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link> */}
+                        <a>Learn Arabic</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.TASBIH_COUNTER}>Tasbih Counter</Link>

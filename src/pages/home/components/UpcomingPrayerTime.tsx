@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import data from '../../../config/data.json'
+import data from '../../../config/data/data.json'
 import moment from 'moment';
 import getCurrentWaqt from '../../../config/functions';
 
