@@ -3263,3 +3263,7 @@ a.article:hover {
     .msg-text {
       color: #000
     }
+
+    iframe .maheader {
+      display: none!important;
+    }
