@@ -3267,3 +3267,13 @@ a.article:hover {
     iframe .maheader {
       display: none!important;
     }
+
+    .ramadan-day-img {
+      /* object-fit: none; */
+      max-height: 180px;
+      /* max-width: 289px; */
+      width: 100%;
+      /* height: 337px; */
+      object-fit: cover;
+      object-position: 25% 50%;
+    }
