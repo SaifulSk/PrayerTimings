@@ -31,7 +31,7 @@ export default function UpcomingPrayerTime() {
         }
         setWaqt(y)
         setUpcomingTime(moment(x[month][day][y]["Start"], "HH:mm").format("h:mm a"))
-    },[])
+    })
 
     return (
         <>
