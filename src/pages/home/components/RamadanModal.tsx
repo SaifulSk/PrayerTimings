@@ -1,11 +1,20 @@
 import React, { useEffect, useState } from 'react';
 import { Modal } from 'react-bootstrap';
+import moment from 'moment'
 
 interface RamadanModalProps {
     shouldShow: boolean;
 }
 
 export default function RamadanModal({ shouldShow }: RamadanModalProps) {
+
+    const [day, setDay] = useState<any>()
+
+    useEffect(()=>{
+        let today = moment()
+        let firstDay = moment("24-03","DD-MM")
+        setDay(today.diff(firstDay,'days') + 1)
+    },[])
 
     return (
         <React.Fragment>
@@ -18,7 +27,7 @@ export default function RamadanModal({ shouldShow }: RamadanModalProps) {
                 contentClassName='custom-modal'
             >
                 <Modal.Header>
-                    Ramadan Kareem
+                    Ramadan Day {day}
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body content">
