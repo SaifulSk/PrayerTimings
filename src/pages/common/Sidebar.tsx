@@ -65,13 +65,14 @@ function Sidebar() {
             setShowRamadanModal(true)
             localStorage.setItem("ramadanDate", d)
         }
+        // setShowRamadanModal(true)
     },[])
 
     useEffect(()=>{
         if(showRamadanModal) {
             setTimeout(()=>{
                 setShowRamadanModal(false)
-            },5000)
+            },30000)
         }
     },[showRamadanModal])
 
@@ -142,7 +143,12 @@ function Sidebar() {
                     />
             }
 
-            { showRamadanModal && <RamadanModal shouldShow={showRamadanModal} /> }
+            { showRamadanModal &&
+                <RamadanModal
+                    shouldShow={showRamadanModal}
+                    setShowRamadanModal={setShowRamadanModal}
+                />
+            }
             
         </section>
     )

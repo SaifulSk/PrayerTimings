@@ -4,9 +4,10 @@ import moment from 'moment'
 
 interface RamadanModalProps {
     shouldShow: boolean;
+    setShowRamadanModal: Function;
 }
 
-export default function RamadanModal({ shouldShow }: RamadanModalProps) {
+export default function RamadanModal({ shouldShow, setShowRamadanModal }: RamadanModalProps) {
 
     const [day, setDay] = useState<any>()
 
@@ -28,6 +29,9 @@ export default function RamadanModal({ shouldShow }: RamadanModalProps) {
             >
                 <Modal.Header>
                     Ramadan Day {day}
+                    <button type="button" className="" onClick={() => setShowRamadanModal(false)} style={{background:"none",border:"none",color:"#fff"}}>
+                        <i className="fa fa-times" />
+                    </button>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body content">
