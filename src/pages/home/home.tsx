@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import NamajTimingForm from './components/NamajTimingForm';
 import Sidebar from '../common/Sidebar';
 import UpcomingPrayerTime from './components/UpcomingPrayerTime';
-import InsightHadith from './components/InsightHadith';
+import Insights from './components/Insights';
 
 export default function Home() {
 
@@ -12,8 +12,9 @@ export default function Home() {
             <section className="main-container">
                 <NamajTimingForm />
                 <UpcomingPrayerTime />
-                <InsightHadith type="Insight" />
-                <InsightHadith type="Hadith" />
+                <h3 className="page-title">Insights of the Day</h3>
+                <Insights />
+                <Insights type="Hadith" />
             </section>
         </React.Fragment>
     )

@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from 'react'
 
-export default function InsightHadith({type}:any) {
+interface InsightsProps {
+    type?: string
+}
+
+export default function Insights({type}: InsightsProps) {
 
     return (
         <>
-            <h3 className="page-title">{type} of the Day</h3>
+            <h4>{type || "Qur'an"}</h4>
             <div style={{ height: 220,  textAlign: "center" }}>
                 <iframe
-                    src={"https://www.alim.org/"+type.toLowerCase()+"-of-the-day/widget/"}
+                    src={"https://www.alim.org/"+(type?.toLowerCase() || "insight")+"-of-the-day/widget/"}
                     height="100%"
                     width="100%"
                     // style={{ border: "none" }}
