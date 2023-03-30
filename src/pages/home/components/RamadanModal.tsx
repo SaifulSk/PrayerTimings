@@ -36,7 +36,7 @@ export default function RamadanModal({ shouldShow, setShowRamadanModal }: Ramada
                 <Modal.Body>
                     <div className="modal-body content">
                         {/* <img className="ramadan-day-img" src={"/PrayerTimings/images/ramadan.webp"} /> */}
-                        <img className="ramadan-day-img" src={"http://www.quranreading.com/blog/wp-content/uploads/2014/07/"+day+".png"} />
+                        {day && <img className="ramadan-day-img" src={"http://www.quranreading.com/blog/wp-content/uploads/2014/07/"+day+".png"} />}
                     </div>
                 </Modal.Body>
             </Modal>
