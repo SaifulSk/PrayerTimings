@@ -65,7 +65,7 @@ function Sidebar() {
         //     setShowRamadanModal(true)
         //     localStorage.setItem("ramadanDate", d)
         // }
-        setShowRamadanModal(true)
+        // setShowRamadanModal(true)
     },[])
 
     useEffect(()=>{
