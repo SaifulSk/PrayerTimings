@@ -54,26 +54,26 @@ function Sidebar() {
 
     //Ramadan
     useEffect(()=>{
-        let date = localStorage.getItem("ramadanDate")
-        let d = moment(new Date()).format("DD-MM")
-        if(date) {
-            if(d!=date) {
-                setShowRamadanModal(true)
-                localStorage.setItem("ramadanDate", d)
-            }
-        } else {
-            setShowRamadanModal(true)
-            localStorage.setItem("ramadanDate", d)
-        }
-        // setShowRamadanModal(true)
+        // let date = localStorage.getItem("ramadanDate")
+        // let d = moment(new Date()).format("DD-MM")
+        // if(date) {
+        //     if(d!=date) {
+        //         setShowRamadanModal(true)
+        //         localStorage.setItem("ramadanDate", d)
+        //     }
+        // } else {
+        //     setShowRamadanModal(true)
+        //     localStorage.setItem("ramadanDate", d)
+        // }
+        setShowRamadanModal(true)
     },[])
 
     useEffect(()=>{
-        if(showRamadanModal) {
-            setTimeout(()=>{
-                setShowRamadanModal(false)
-            },30000)
-        }
+        // if(showRamadanModal) {
+        //     setTimeout(()=>{
+        //         setShowRamadanModal(false)
+        //     },30000)
+        // }
     },[showRamadanModal])
 
     return (

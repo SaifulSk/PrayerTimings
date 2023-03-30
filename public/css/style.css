@@ -3277,3 +3277,11 @@ a.article:hover {
       object-fit: cover;
       object-position: 25% 50%;
     }
+
+    .desc-text {
+      color: #fff;
+      font-size: 12px;
+      text-align: justify;
+      line-height: 15px;
+      padding-bottom: 10px;
+    }

@@ -31,6 +31,7 @@ export default function Zikr() {
     return (
         <>
             <h3 className="page-title">Zikr Counters</h3>
+            <div className="desc-text">The remembrance of Allah. The effort of total concentration with sincerity on God, to realise His nearness and company, and removing all other thoughts is called zikr. Everything which can be instrumental in invoking God, such as a name, a sign, an act, a word, a prayer, or recitations of the Holy Quran, or invoking blessings on the Holy Quran, or invoking blessings on the Holy Prophet (durood sharif), or entreaties, or spiritual conditions and similar acts which enhance the remembrance of the beloved and increase communion with Him, are covered by the term zikr.</div>
             {totalZikrs.map((x:any)=>
                 <>
                     <h4>{x}. {Object.keys(ZIKRS)[x-1]}</h4>
