@@ -2287,21 +2287,19 @@
   dependencies:
     "@types/react" "*"
 
-<<<<<<< HEAD
 "@types/react-speech-recognition@^3.9.2":
   version "3.9.2"
   resolved "https://registry.yarnpkg.com/@types/react-speech-recognition/-/react-speech-recognition-3.9.2.tgz#0084ad4aca3e70d92807ae411c660e6aa751c78f"
   integrity sha512-LS13Z4A8nluGWyT1NQncWoyaWARJdEojxmcRvaFDT9nTHpRkMgPjaYBJIc/9GBRYYFy8TQGaiCmUdH2g4M9INg==
   dependencies:
     "@types/dom-speech-recognition" "*"
-=======
+
 "@types/react-toastify@^4.1.0":
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/@types/react-toastify/-/react-toastify-4.1.0.tgz#604e712855dd677916d5c66af595d3b590f5d95d"
   integrity sha512-u7Ie/7LHBsPVz/iJxi/WlRDS7Gh9csCJACTDXx+pSLuZCm94xpkwzhM3jV1L5ZxP/in0Gp2tFbJ91VrSGr1gyQ==
   dependencies:
     react-toastify "*"
->>>>>>> f55e944c75b7b5e73576a42416f30e629b3390ff
 
 "@types/react-transition-group@^4.4.0", "@types/react-transition-group@^4.4.4":
   version "4.4.5"
@@ -8195,6 +8193,11 @@ react-slider@^2.0.4:
   integrity sha512-sWwQD01n6v+MbeLCYthJGZPc0kzOyhQHyd0bSo0edg+IAxTVQmj3Oy4SBK65eX6gNwS9meUn6Z5sIBUVmwAd9g==
   dependencies:
     prop-types "^15.8.1"
+
+react-speech-recognition@^3.10.0:
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/react-speech-recognition/-/react-speech-recognition-3.10.0.tgz#7aa43bb28d78b92671864dabba3a70489ccad27b"
+  integrity sha512-EVSr4Ik8l9urwdPiK2r0+ADrLyDDrjB0qBRdUWO+w2MfwEBrj6NuRmy1GD3x7BU/V6/hab0pl8Lupen0zwlJyw==
 
 react-switch@^7.0.0:
   version "7.0.0"
