@@ -62,7 +62,7 @@ a:focus {
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
     /* background: rgb(137, 2, 3); */
-    background: #000;
+    background: #0a9246;
     /* background: linear-gradient(180deg, rgba(137, 2, 3, 1) 0%, rgba(2, 63, 170, 1) 100%); */
 }
 
@@ -76,7 +76,8 @@ a:focus {
     line-height: 31px;
     text-align: center;
     /* background: #ff0000; */
-    background: #a6a6a6;
+    background: #fff;
+    color: #0a9246;
     position: absolute;
     top: 10px;
     right: 10px;
@@ -116,8 +117,8 @@ a:focus {
     padding: 15px;
     /* background: #ff71c4; */
     /* background: #ff0000; */
-    /* background: #000; */
-    background: #a6a6a6;
+    background: #000;
+    /* background: #d6d6d6; */
 }
 
 #sidebar .sidebar-header img {
@@ -355,7 +356,8 @@ a.article:hover {
     /* background: #d10b0e url('../images/bg-all.jpg') 50% 50% no-repeat;
               background-size: cover; */
     /* background: #fff; */
-    background: #f3fbf7;
+    /* background: #f3fbf7; */
+    background: #000000;
   }
   
   .join-bg {
@@ -629,7 +631,7 @@ a.article:hover {
     padding: 10px;
     z-index: 10;
     /* background: #000; */
-    background: #a6a6a6;
+    background: #0a9246;
   }
   
   .user-image {
@@ -666,7 +668,7 @@ a.article:hover {
     font-weight: 900;
     display: flex;
     align-items: center;
-    margin: 15px 0 0 0;
+    margin: 15px 0 15px 0px;
   }
   
   .page-title span {
@@ -1655,7 +1657,7 @@ a.article:hover {
   }
   
   .form-box-new .form-label {
-    color: #000;
+    color: #fff;
     line-height: 1;
     margin: 25px 0 15px;
   }
@@ -2488,7 +2490,7 @@ a.article:hover {
     padding: 10px;
     margin: 0 -10px;
     /*border-top: 1px solid rgba(255,255,255,0.2);*/
-    background: #a6a6a6;
+    background: #d6d6d6;
     overflow-y: scroll;
     max-height: 620px;
   }
@@ -3143,32 +3145,143 @@ a.article:hover {
     }
 
     .count-val {
-      font-size: 200px;
+      font-size: 150px;
       font-weight: bold;
       display: grid;
       justify-items: center;
+      color: #fff;
     }
 
     .plus-btn-wrap {
-      font-size: 60px;
-      height: 90px;
-      width: 90px;
-      line-height: 80px;
-      border-radius: 50px;
-      display: grid;
-      justify-items: center;
       color: #fff;
-      background-color: #0a9246;
+      font-size: 40px;
+      text-align: center;
     }
 
-    .reset-btn-wrap {
-      font-size: 60px;
-      height: 90px;
-      width: 90px;
-      line-height: 80px;
+    .plus-btn-wrap a {
+      height: 60px;
+      display: inline-flex;
+      width: 60px;
+      background-color: #0a9246;
       border-radius: 50px;
-      display: grid;
-      justify-items: center;
-      color: #fff;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    .reset-btn-wrap a {
       background-color: #ff0000;
+    }
+
+    .reset-btn-wrap img {
+      width: 35px;
+    }
+
+    .modal-header {
+      background-color: #0a9246;
+      color: white;
+      font-weight: bold;
+    }
+
+    h3.page-title {
+      margin: 30px 0 15px 0;
+      font-size: x-large;
+    }
+
+    .content span {
+      font-weight: bold;
+    }
+
+    .zikr-wrap {
+      background: #0a9246;
+      border-radius: 15px;
+      margin: 15px 0;
+    }
+
+    .zikr-img {
+      display: grid;
+      justify-content: center;
+      align-items: center;
+      background: #ffffff;
+      border-radius: 15px;
+      font-size: 35px;
+      font-weight: 600;
+    }
+
+    .zikr-wrap .zikr-img img {
+      max-height: 75px;
+      padding: 10px;
+      max-width: 100%;
+    }
+
+    .zikr-wrap span {
+      font-size: 50px;
+    }
+
+    .zikr-wrap .plus-btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      font-size: 30px;
+      text-align: center;
+      padding-top: 20px;
+    }
+
+    .zikr-wrap .plus-btn-wrap a {
+      height: 40px;
+      display: inline-flex;
+      width: 40px;
+      background-color: #000;
+      border-radius: 50px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 10px;
+    }  
+
+    .zikr-wrap .reset-btn-wrap a {
+      background-color: #ff0000;
+    }
+
+    .zikr-wrap .reset-btn-wrap img {
+      width: 25px;
+    }
+
+    h4 {
+      color: white;
+      font-weight: 600;
+    }
+
+    .zikr-meaning {
+      text-align: center;
+      font-size: 15px;
+      font-style: italic;
+      font-weight: bold;
+      padding: 5px;
+    }
+
+    .msg-text {
+      color: #000
+    }
+
+    iframe .maheader {
+      display: none!important;
+    }
+
+    .ramadan-day-img {
+      /* object-fit: none; */
+      max-height: 180px;
+      /* max-width: 289px; */
+      width: 100%;
+      /* height: 337px; */
+      object-fit: cover;
+      object-position: 25% 50%;
+    }
+
+    .desc-text {
+      color: #fff;
+      font-size: 12px;
+      text-align: justify;
+      line-height: 15px;
+      padding-bottom: 10px;
     }

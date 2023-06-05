@@ -7,13 +7,15 @@ import DateInput from '../../../_common/components/form-elements/datepicker/date
 import SelectInput from '../../../_common/components/form-elements/selectinput/selectInput';
 import { WAQT_OPTIONS } from '../../../config';
 import StartEndTimeModal from './StartEndTimeModal';
+import getCurrentWaqt from '../../../config/functions';
+import SetLocationModal from './SetLocationModal';
 
-interface UserDetailsFormValues {
+interface NamajTimingFormValues {
     date: any;
     waqt: any;
 }
 
-const userDetailsSchema = yup.object().shape({
+const NamajTimingSchema = yup.object().shape({
     date: yup
         .string(),
     waqt: yup
@@ -23,8 +25,8 @@ const userDetailsSchema = yup.object().shape({
 
 export default function NamajTimingForm() {
 
-    const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<UserDetailsFormValues>({
-        resolver: yupResolver(userDetailsSchema),
+    const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<NamajTimingFormValues>({
+        resolver: yupResolver(NamajTimingSchema),
         defaultValues: {
             date: new Date(),
             waqt: '',
@@ -32,6 +34,7 @@ export default function NamajTimingForm() {
     })
 
     const [showStartEndTimeModal, setShowStartEndTimeModal] = useState<boolean>(false)
+    const [showSetLocationModal, setShowSetLocationModal] = useState<boolean>(false)
     const [formValues, setFormValues] = useState<any>()
 
     const onSubmit = (values: any) => {
@@ -44,15 +47,23 @@ export default function NamajTimingForm() {
         setShowStartEndTimeModal(false)
     }
 
+    const onCloseSetLocationModal = () => {
+        setShowSetLocationModal(false)
+    }
+    
     useEffect(()=>{
-        console.log("6:51"<"6:52")
-        // let x = 
-        // setValue("waqt",{value: x,label: x})
+        let y = getCurrentWaqt()
+        setValue("waqt",{value:y,label:y})
     },[])
 
     return (
         <>
-            <h2 className="page-title">Prayer Timings</h2>
+            <h2 className="page-title">
+                Prayer Timings
+                <a style={{right: "15px",position: "absolute"}} onClick={()=>{setShowSetLocationModal(true)}}>
+                    <i className="fa-solid fa-location-dot" />
+                </a>
+            </h2>            
             <form onSubmit={handleSubmit(onSubmit)} noValidate>
                 <div className="form-box-new">
                     <div className="mb-3">
@@ -114,6 +125,12 @@ export default function NamajTimingForm() {
                         shouldShow={showStartEndTimeModal}
                         formValues={formValues}
                         onClose={onCloseStartEndTimeModal}
+                    />
+                }
+                {   showSetLocationModal &&
+                    <SetLocationModal
+                        shouldShow={showSetLocationModal}
+                        onClose={onCloseSetLocationModal}
                     />
                 }
             </form>

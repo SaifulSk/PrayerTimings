@@ -1,11 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 import { URLS } from '../../config';
-import ConfirmModal from '../home/components/ConfirmModal';
+import ConfirmModal from './ConfirmModal';
+import moment from 'moment';
+import RamadanModal from '../home/components/RamadanModal';
 
 function Sidebar() {
 
     const [showConfirmModal,setShowConfirmModal] = useState<boolean>(false)
+    const [showRamadanModal,setShowRamadanModal] = useState<boolean>(false)
     const navigate = useNavigate()
 
     const toogleSideBarOnOff = (status: boolean) => {
@@ -35,11 +38,43 @@ function Sidebar() {
 
     const onConfirmModalSuccess = () => {
         window.open("https://quran.com","_blank")
+        setShowConfirmModal(false)
     }
 
     const goToHome = () => {
         navigate(URLS.HOME)
     }
+
+    useEffect(()=>{
+        let loc = localStorage.getItem("location")
+        if(!loc) {
+            localStorage.setItem("location",JSON.stringify({label: "Kolkata", value: "+00:00:00"}))
+        }
+    },[])    
+
+    //Ramadan
+    useEffect(()=>{
+        // let date = localStorage.getItem("ramadanDate")
+        // let d = moment(new Date()).format("DD-MM")
+        // if(date) {
+        //     if(d!=date) {
+        //         setShowRamadanModal(true)
+        //         localStorage.setItem("ramadanDate", d)
+        //     }
+        // } else {
+        //     setShowRamadanModal(true)
+        //     localStorage.setItem("ramadanDate", d)
+        // }
+        // // setShowRamadanModal(true)
+    },[])
+
+    useEffect(()=>{
+        // if(showRamadanModal) {
+        //     setTimeout(()=>{
+        //         setShowRamadanModal(false)
+        //     },30000)
+        // }
+    },[showRamadanModal])
 
     return (
         <section className="top-nav">
@@ -49,25 +84,35 @@ function Sidebar() {
                 <div id="dismiss" onClick={() => toogleSideBarOnOff(false)}>
                     <i className="fa fa-arrow-left" />
                 </div>
-                <div className="sidebar-header" style={{color:"#000",fontWeight: "bold"}}>
+                <div className="sidebar-header" style={{fontWeight: "bold"}}>
                     {/* <img src="/PrayerTimings/images/logo.png" alt="" /> */}
-                    <span style={{color:"#0a9246"}}>Islamic </span>KnowHow
+                    Islamic <span style={{color:"#0a9246"}}>KnowHow</span>
                 </div>
                 <ul className="list-unstyled components">
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.NAMES_OF_ALLAH}>99 Names Of Allah</Link>
+                    </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <a onClick={openConfirmModal}>Go to Quran.com</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
+                        <a href="https://sunnah.com" target="_blank">Hadiths</a>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>
                     </li>
-                    <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a href="https://muslimnames.com" target="_blank">Muslim Baby Names</a>
-                    </li>
-                    <li onClick={() => toogleSideBarOnOff(false)}>
-                        <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link>
+                    <li onClick={() => {toogleSideBarOnOff(false);window.open("/PrayerTimings/qaida.pdf", "_blank")}}>
+                        {/* <Link to={URLS.LEARN_ARABIC}>Learn Arabic</Link> */}
+                        <a>Learn Arabic</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.TASBIH_COUNTER}>Tasbih Counter</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.HIJRI_CALENDAR}>Hijri Calendar</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <a href="https://muslimnames.com" target="_blank">Muslim Names</a>
                     </li>
                 </ul>
             </nav>
@@ -86,6 +131,7 @@ function Sidebar() {
                 </div>
             </nav>
             <div className="overlay" id="overlay" onClick={() => toogleSideBarOnOff(false)} />
+
             {
                 showConfirmModal &&
                     <ConfirmModal
@@ -96,6 +142,13 @@ function Sidebar() {
                         type={2}
                     />
             }
+
+            {/* { showRamadanModal &&
+                <RamadanModal
+                    shouldShow={showRamadanModal}
+                    setShowRamadanModal={setShowRamadanModal}
+                />
+            } */}
             
         </section>
     )
