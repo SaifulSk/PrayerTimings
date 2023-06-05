@@ -35,6 +35,7 @@
     "react-scripts": "5.0.1",
     "react-select": "^5.7.0",
     "react-slider": "^2.0.4",
+    "react-speech-recognition": "^3.10.0",
     "react-switch": "^7.0.0",
     "react-toastify": "^6.1.0",
     "redux": "^4.0.5",

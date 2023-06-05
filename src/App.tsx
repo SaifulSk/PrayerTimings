@@ -12,7 +12,7 @@ import Dictaphone from './SpeechToText';
 function App() {
     return (
         <React.Fragment>
-            {/* <Router>
+            <Router>
                 <Routes>
                     <Route path={URLS.HOME} element={<Home />} />
                     <Route path={URLS.LEARN_ARABIC} element={<LearnArabic />} />
@@ -21,8 +21,8 @@ function App() {
                     <Route path={URLS.NAMES_OF_ALLAH} element={<NamesOfAllah />} />
                     <Route path="*" element={<Page404 />} />
                 </Routes>
-            </Router> */}
-            <Dictaphone/>
+            </Router>
+            {/* <Dictaphone/> */}
         </React.Fragment>
     );
 }
