@@ -7,11 +7,12 @@ import Home from './pages/home';
 import LearnArabic from './pages/learnArabic';
 import Page404 from './pages/page-404';
 import TasbihCounter from './pages/tasbihCounter';
+import Dictaphone from './SpeechToText';
 
 function App() {
     return (
         <React.Fragment>
-            <Router>
+            {/* <Router>
                 <Routes>
                     <Route path={URLS.HOME} element={<Home />} />
                     <Route path={URLS.LEARN_ARABIC} element={<LearnArabic />} />
@@ -20,7 +21,8 @@ function App() {
                     <Route path={URLS.NAMES_OF_ALLAH} element={<NamesOfAllah />} />
                     <Route path="*" element={<Page404 />} />
                 </Routes>
-            </Router>
+            </Router> */}
+            <Dictaphone/>
         </React.Fragment>
     );
 }
