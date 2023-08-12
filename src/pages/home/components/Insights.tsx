@@ -11,7 +11,7 @@ export default function Insights({type}: InsightsProps) {
             <h4>{type || "Qur'an"}</h4>
             <div style={{ height: 220,  textAlign: "center" }}>
                 <iframe
-                    src={"https://www.alim.org/"+(type?.toLowerCase() || "insight")+"-of-the-day/widget/"}
+                    src={"https://devl.stage.alim.org/"+(type?.toLowerCase() || "insight")+"-of-the-day/widget/"}
                     height="100%"
                     width="100%"
                     // style={{ border: "none" }}
