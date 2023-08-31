@@ -141,7 +141,7 @@ function Sidebar() {
                         shouldShow={showConfirmModal}
                         onClose={onConfirmModalClose}
                         onSuccess={onConfirmModalSuccess}
-                        message={"Wudu is must before opening this. Are you ready?"}
+                        message={"Wudu is must for opening Al Qur'an. Have you done wudu?"}
                         type={2}
                     />
             }
