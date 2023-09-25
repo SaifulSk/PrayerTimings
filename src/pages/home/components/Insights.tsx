@@ -8,7 +8,7 @@ export default function Insights({type}: InsightsProps) {
 
     return (
         <>
-            <h4>{type || "Qur'an"}</h4>
+            <h4 className='msg-text'>{type || "Qur'an"}</h4>
             <div style={{ height: 220,  textAlign: "center" }}>
                 <iframe
                     src={"https://alim.org/"+(type?.toLowerCase() || "insight")+"-of-the-day/widget/"}
