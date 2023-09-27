@@ -28,7 +28,9 @@ export default function Home() {
             <section className="main-container">
                 <NamajTimingForm />
                 <UpcomingPrayerTime />
-                <button className="rkmd-btn btn-lg btn-orange ripple-effect w-100 mt-3" onClick={()=>setShowInsightsModal(true)}>Insights of the Day</button>
+                <div className="btn-wrap">
+                    <button className="rkmd-btn btn-lg btn-orange ripple-effect w-100 mt-3" onClick={()=>setShowInsightsModal(true)}>Insights of the Day</button>
+                </div>
                 {/* <Insights />
                 <Insights type="Hadith" /> */}
             </section>
