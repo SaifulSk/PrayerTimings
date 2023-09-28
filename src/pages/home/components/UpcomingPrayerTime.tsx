@@ -8,16 +8,16 @@ export default function UpcomingPrayerTime() {
     const [waqt, setWaqt] = useState<any>()
     const [remainingTime, setRemainingTime] = useState<any>()
 
-    function pad(num: any) {
-        return ("0"+num).slice(-2);
+    const pad = (num: any) => {
+        return ("0"+num).slice(-2)
     }
-    function hhmmss(secs: any) {
-      var minutes = Math.floor(secs / 60);
-      secs = secs%60;
+    const hhmmss = (secs: any) => {
+      var minutes = Math.floor(secs / 60)
+      secs = secs%60
       var hours = Math.floor(minutes/60)
-      minutes = minutes%60;
-      return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`;
-      // return pad(hours)+":"+pad(minutes)+":"+pad(secs); for old browsers
+      minutes = minutes%60
+      return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`
+      // return pad(hours)+":"+pad(minutes)+":"+pad(secs) for old browsers
     }
     
     useEffect(()=>{
