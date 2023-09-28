@@ -67,7 +67,7 @@ export default function UpcomingPrayerTime() {
                 Time: <span>{upcomingTime}</span>
             </div>
             <div className="content text-white">
-                Remaining Time: <span>{remainingTime}</span>
+                Time Left: <span>{remainingTime}</span>
             </div>
         </>
     )
