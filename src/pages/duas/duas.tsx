@@ -31,7 +31,7 @@ export default function Duas() {
             <Sidebar />
             <section className="main-container">
                 <h2 className="page-title">Duas</h2>
-
+                
             </section>
         </React.Fragment>
     )
