@@ -105,7 +105,7 @@ function Sidebar() {
                         <Link to={URLS.DUAS}>Duas</Link>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a href="https://www.youtube.com/playlist?list=PLqIZQ02Yb0hmre39-7qk-4e3-eJ4WtM1c" target="_blank">Prophets Lives Videos</a>
+                        <a href="https://www.youtube.com/playlist?list=PLqIZQ02Yb0hmre39-7qk-4e3-eJ4WtM1c" target="_blank">Prophets' Life Videos</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.HOME}>Prayer Timings</Link>
