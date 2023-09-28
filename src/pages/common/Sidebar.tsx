@@ -99,6 +99,9 @@ function Sidebar() {
                         <a href="https://sunnah.com" target="_blank">Hadiths</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
+                        <Link to={URLS.DUAS}>Duas</Link>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
                         <a href="https://www.youtube.com/playlist?list=PLqIZQ02Yb0hmre39-7qk-4e3-eJ4WtM1c" target="_blank">Prophets Lives Videos</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>

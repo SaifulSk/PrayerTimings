@@ -94,6 +94,7 @@ export const URLS = {
     TASBIH_COUNTER: '/PrayerTimings/tasbih-counter',
     HIJRI_CALENDAR: '/PrayerTimings/hijri-calendar',
     NAMES_OF_ALLAH: '/PrayerTimings/99-names-of-Allah',
+    DUAS: '/PrayerTimings/duas',
 }
 
 export const ACTIONS = {
@@ -101,5 +102,6 @@ export const ACTIONS = {
 }
 
 export const SAGA_ACTIONS = {
-    NAMES_OF_ALLAH: 'SAGA_ACTIONS/NAMES_OF_ALLAH'
+    NAMES_OF_ALLAH: 'SAGA_ACTIONS/NAMES_OF_ALLAH',
+    DUAS: 'SAGA_ACTIONS/DUAS'
 }

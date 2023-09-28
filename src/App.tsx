@@ -8,6 +8,7 @@ import LearnArabic from './pages/learnArabic';
 import Page404 from './pages/page-404';
 import TasbihCounter from './pages/tasbihCounter';
 import Dictaphone from './SpeechToText';
+import Duas from './pages/duas';
 
 function App() {
     return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path={URLS.TASBIH_COUNTER} element={<TasbihCounter />} />
                     <Route path={URLS.HIJRI_CALENDAR} element={<HijriCalendar />} />
                     <Route path={URLS.NAMES_OF_ALLAH} element={<NamesOfAllah />} />
+                    <Route path={URLS.DUAS} element={<Duas />} />
                     <Route path="*" element={<Page404 />} />
                 </Routes>
             </Router>

@@ -18,6 +18,7 @@ export default function Home() {
                 localStorage.setItem("day",today)
             }
         } else {
+            setShowInsightsModal(true)
             localStorage.setItem("day",today)
         }
     },[])

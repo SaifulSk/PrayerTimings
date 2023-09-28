@@ -8,8 +8,13 @@ export function useIslamicApi() {
     const getNamesOfAllah = (onSuccess: Function, onError: Function) => {
         callApi(SAGA_ACTIONS.NAMES_OF_ALLAH, null, onSuccess, onError);
     }
+
+    const getDuas = (data: any, onSuccess: Function, onError: Function) => {
+        callApi(SAGA_ACTIONS.DUAS, data, onSuccess, onError);
+    }
     
     return {
         callGetNamesOfAllah: getNamesOfAllah,
+        callGetDuas: getDuas,
     }
 }
