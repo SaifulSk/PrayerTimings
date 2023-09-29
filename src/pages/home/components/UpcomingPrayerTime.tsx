@@ -2,11 +2,14 @@ import React, { useEffect, useState } from 'react'
 import data from '../../../config/data/data.json'
 import moment from 'moment';
 import getCurrentWaqt from '../../../config/functions';
+import AzanModal from './AzanModal';
 
 export default function UpcomingPrayerTime() {
     const [upcomingTime, setUpcomingTime] = useState<any>()
     const [waqt, setWaqt] = useState<any>()
     const [remainingTime, setRemainingTime] = useState<any>()
+    const [intervalId, setIntervalId] = useState<any>()
+    const [showAzanModal, setShowAzanModal] = useState<boolean>(false)
 
     const pad = (num: any) => {
         return ("0"+num).slice(-2)
@@ -19,9 +22,19 @@ export default function UpcomingPrayerTime() {
       return `${pad(hours)}:${pad(minutes)}:${pad(secs)}`
       // return pad(hours)+":"+pad(minutes)+":"+pad(secs) for old browsers
     }
-    
-    useEffect(()=>{
 
+    const openAzanModal = () => {
+        setShowAzanModal(true)
+    }
+
+    const closeAzanModal = () => {
+        setShowAzanModal(false)
+        // window.location.reload()
+        findUpcomingWaqt()
+    }
+    
+    const findUpcomingWaqt = () => {
+        
         let currentDate = moment()
 
         let day = currentDate.format("D")
@@ -45,16 +58,32 @@ export default function UpcomingPrayerTime() {
         console.log(month,day)
         let tm = moment(x[month][day][y]["Start"], "HH:mm").format("h:mm a")
         setUpcomingTime(tm)
-        let sec = moment(tm,"h:mm a").diff(moment(),'seconds')
-        // console.log()
-        let id = setInterval(()=>{
+        countDown(tm)
+    }
+
+    const countDown = (tm: any) => {
+        let sec = (moment(tm,"h:mm a").diff(moment(),'seconds')+86400)%86400
+        // let sec = 3
+        console.log({sec})
+        let id=setInterval(()=>{
+            setIntervalId(id)
             setRemainingTime(hhmmss(sec))
             sec--
+            if(sec<0) {
+                clearInterval(id)
+                openAzanModal()
+            }
         },1000)
+    }
+
+    useEffect(()=>{
+
+        findUpcomingWaqt()
 
         return () => {
-            clearInterval(id)
+            clearInterval(intervalId)
         }
+
     },[])
 
     return (
@@ -69,6 +98,15 @@ export default function UpcomingPrayerTime() {
             <div className="content text-white">
                 Time Left: <span>{remainingTime}</span>
             </div>
+
+            {
+                showAzanModal && waqt && waqt!="Tahajjud" &&
+                <AzanModal
+                    shouldShow={showAzanModal}
+                    closeAzanModal={closeAzanModal}
+                    waqt={waqt}
+                />
+            }
         </>
     )
 }

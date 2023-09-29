@@ -10,6 +10,13 @@ interface InsightsModalProps {
 
 export default function InsightsModal({ shouldShow, setShowInsightsModal }: InsightsModalProps) {
 
+    useEffect(()=>{
+        let x:any=document.getElementById("azan")
+        if(x) {
+            x.play()
+        }
+    },[])
+
     return (
         <React.Fragment>
             <Modal
@@ -30,10 +37,6 @@ export default function InsightsModal({ shouldShow, setShowInsightsModal }: Insi
                     <div className="modal-body content">
                         <Insights />
                         <Insights type="Hadith" />
-                        <video width="320" height="240" controls>
-                            <source src="images/Azan.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
                     </div>
                 </Modal.Body>
             </Modal>
