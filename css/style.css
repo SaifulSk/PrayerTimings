@@ -3289,7 +3289,7 @@ a.article:hover {
     }
 
     .insight-btn {
-      background: yellow;
+      background: #ffc157;
       font-weight: bold;
       font-size: 20px;
       transform: rotate(-90deg);
