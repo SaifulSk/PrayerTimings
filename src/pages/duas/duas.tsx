@@ -84,8 +84,9 @@ export default function Duas() {
                                 </div>
                                 <div className="zikr-meaning text-white">{data[item].transliteration}</div>
                                 <div className="zikr-meaning">{data[item].translation}</div>
+                                <div className="zikr-meaning text-white">Reference: {data[item].reference}</div>
                             </div>
-                            {data[item]["recommended-use"] && <div className="desc-text">{data[item]["recommended-use"]}</div>}
+                            {data[item]["recommended-use"] && <div className="desc-text">Recommended Use:{data[item]["recommended-use"]}</div>}
                         </>
                     ) : <div className="desc-text">No dua selected</div>
                 }
