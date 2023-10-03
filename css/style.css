@@ -3287,3 +3287,17 @@ a.article:hover {
       line-height: 15px;
       padding-bottom: 10px;
     }
+
+    .insight-btn {
+      background: yellow;
+      font-weight: bold;
+      font-size: 20px;
+      transform: rotate(-90deg);
+    }
+
+    .insight-btn-wrap {
+      position: fixed;
+      right: -23px;
+      top: 75%;
+      z-index: 99;
+    }
