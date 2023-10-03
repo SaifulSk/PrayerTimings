@@ -4,12 +4,15 @@ import { URLS } from '../../config';
 import ConfirmModal from './ConfirmModal';
 import moment from 'moment';
 import RamadanModal from '../home/components/RamadanModal';
+import InsightsModal from '../home/components/InsightsModal';
 
 function Sidebar() {
 
     const [showConfirmModal,setShowConfirmModal] = useState<boolean>(false)
     const [showRamadanModal,setShowRamadanModal] = useState<boolean>(false)
     const navigate = useNavigate()
+
+    const [showInsightsModal, setShowInsightsModal] = useState<boolean>(false)
 
     const toogleSideBarOnOff = (status: boolean) => {
         var sidebarCollapseElement = document.getElementById("sidebarCollapse");
@@ -76,6 +79,20 @@ function Sidebar() {
         // }
     },[showRamadanModal])
 
+    useEffect(()=>{
+        let day = localStorage.getItem("day")
+        let today = (new Date()).getDate()+""
+        if(day) {
+            if(today!=day) {
+                setShowInsightsModal(true)
+                localStorage.setItem("day",today)
+            }
+        } else {
+            setShowInsightsModal(true)
+            localStorage.setItem("day",today)
+        }
+    },[])
+
     return (
         <section className="top-nav">
             {/*LEFT MENU*/}
@@ -139,6 +156,9 @@ function Sidebar() {
                     </button>
                 </div>
             </nav>
+            <div className="insight-btn-wrap">
+                <button className="btn insight-btn" onClick={()=>setShowInsightsModal(true)}>Insights of the Day</button>
+            </div>
             <div className="overlay" id="overlay" onClick={() => toogleSideBarOnOff(false)} />
 
             {
@@ -150,6 +170,13 @@ function Sidebar() {
                         message={"Wudu is must for opening Al Qur'an. Have you done wudu?"}
                         type={2}
                     />
+            }
+            {
+                showInsightsModal && 
+                <InsightsModal
+                    shouldShow={showInsightsModal}
+                    setShowInsightsModal={setShowInsightsModal}
+                />
             }
 
             {/* { showRamadanModal &&
