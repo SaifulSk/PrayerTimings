@@ -28,12 +28,13 @@ export default function Home() {
             <Sidebar />
             <section className="main-container">
                 <NamajTimingForm />
+                {/* <UpcomingPrayerTime type="current"/> */}
                 <UpcomingPrayerTime />
                 {/* <div className="btn-wrap">
                     <button className="rkmd-btn btn-lg btn-orange ripple-effect w-100 mt-3" onClick={()=>setShowInsightsModal(true)}>Insights of the Day</button>
                 </div> */}
                 <div className="insight-btn-wrap">
-                    <button className="btn insight-btn" onClick={()=>setShowInsightsModal(true)}>Insights</button>
+                    <button className="btn insight-btn" onClick={()=>setShowInsightsModal(true)}>Insights of the Day</button>
                 </div>
                 {/* <Insights />
                 <Insights type="Hadith" /> */}

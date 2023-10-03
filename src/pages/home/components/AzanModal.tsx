@@ -16,18 +16,43 @@ export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModa
     const btnClicked = () => {
         console.log("Clicked")
         // let x:any=document.getElementById("azanVid")
-        let x: any = vidRef?.current
-        if(x) {
-            console.log(x.muted)
-            x.muted = false
-            console.log(x.muted)
+        var playButton = document.getElementById("play_button");
+        let video: any = vidRef?.current
+        if(video && playButton) {
+        //     if(type=="on") {
+        //         x.muted = false
+        //     } else {
+        //         x.muted = false
+        //     }
+        // }        
+            // Event listener for the play/pause button
+            if (video.paused == true) {
+                // Play the video
+                video.play();
+
+                // Update the button text to 'Pause'
+                playButton.innerHTML = "Pause";
+            } else {
+                // Pause the video
+                video.pause();
+
+                // Update the button text to 'Play'
+                playButton.innerHTML = "Play";
+            }
+        }
+    }
+
+    const vidClicked = () => {
+        let video: any = vidRef?.current
+        if(video) {
+            video.muted = false
         }
     }
 
     useEffect(()=>{
         setTimeout(()=>{
             setCrossActive(true)
-        //     let x:any=document.getElementById("azanBtn")
+        //     let x:any=document.getElementById("play_button")
         //     if(x) {
         //         x.click()
         //     }
@@ -35,7 +60,7 @@ export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModa
         //     // if(x) {
         //     //     x.play()
         //     // }
-        },10000)
+        },15000)
     },[])
 
     return (
@@ -56,8 +81,10 @@ export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModa
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body content">
-                        <video width="100%" id="azanVid" preload='auto' autoPlay
-                            // muted={true}
+                        <video width="100%" id="azanVid" preload='auto'
+                            autoPlay
+                            muted={true}
+                            onClick={()=>vidClicked()}
                             onEnded={()=>closeAzanModal()} ref={vidRef}>
                             {waqt=="Fajr" ?
                                 <source src="images/FajrAzan.mp4" type="video/mp4" />
@@ -66,7 +93,9 @@ export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModa
                             }
                             Your browser does not support the video tag.
                         </video>
-                        {/* <button id="azanBtn" onClick={()=>btnClicked()}></button> */}
+                        <h4 className="msg-text">Click the above video to listen to the Adhan</h4>
+                        {/* <button id="play_button" onClick={()=>btnClicked()}>Play</button> */}
+                        {/* <i className="fa fa-volume-up" onClick={()=>btnClicked("on")}/> */}
                     </div>
                 </Modal.Body>
             </Modal>

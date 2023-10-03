@@ -4,7 +4,7 @@ import moment from 'moment';
 import getCurrentWaqt from '../../../config/functions';
 import AzanModal from './AzanModal';
 
-export default function UpcomingPrayerTime() {
+export default function UpcomingPrayerTime({type}:any) {
     const [upcomingTime, setUpcomingTime] = useState<any>()
     const [waqt, setWaqt] = useState<any>()
     const [remainingTime, setRemainingTime] = useState<any>()
