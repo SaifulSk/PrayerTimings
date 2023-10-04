@@ -3305,3 +3305,9 @@ a.article:hover {
       top: 75%;
       z-index: 99;
     }
+
+    .highlight-text {
+      color: #ffc157;
+      text-align: center;
+      padding-top: 15px;
+    }
