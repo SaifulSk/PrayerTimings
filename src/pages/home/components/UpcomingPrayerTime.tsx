@@ -90,7 +90,7 @@ export default function UpcomingPrayerTime({type}:any) {
     return (
         <>
             <div className="highlight-text content">
-                Current Prayer <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")]["End"] || moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
+                Current Waqt <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")]["End"] || moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
             </div>
             <h3 className="page-title">Upcoming Prayer</h3>
             <div className="content text-white">
