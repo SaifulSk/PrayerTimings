@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/PrayerTimings/static/css/main.551feeb1.css",
-    "main.js": "/PrayerTimings/static/js/main.46c49738.js",
+    "main.js": "/PrayerTimings/static/js/main.4b0d4368.js",
     "NamesOfAllah.js": "/PrayerTimings/static/js/NamesOfAllah.d396ab29.chunk.js",
     "HijriCalendar.js": "/PrayerTimings/static/js/HijriCalendar.38060274.chunk.js",
     "Home.css": "/PrayerTimings/static/css/Home.35125036.chunk.css",
-    "Home.js": "/PrayerTimings/static/js/Home.dfb6ef49.chunk.js",
+    "Home.js": "/PrayerTimings/static/js/Home.2dc69def.chunk.js",
     "LearnArabic.js": "/PrayerTimings/static/js/LearnArabic.ee0952e3.chunk.js",
     "Page404.js": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js",
     "TasbihCounter.js": "/PrayerTimings/static/js/TasbihCounter.5d160c62.chunk.js",
@@ -19,11 +19,11 @@
     "static/js/459.6b3eedb4.chunk.js": "/PrayerTimings/static/js/459.6b3eedb4.chunk.js",
     "index.html": "/PrayerTimings/index.html",
     "main.551feeb1.css.map": "/PrayerTimings/static/css/main.551feeb1.css.map",
-    "main.46c49738.js.map": "/PrayerTimings/static/js/main.46c49738.js.map",
+    "main.4b0d4368.js.map": "/PrayerTimings/static/js/main.4b0d4368.js.map",
     "NamesOfAllah.d396ab29.chunk.js.map": "/PrayerTimings/static/js/NamesOfAllah.d396ab29.chunk.js.map",
     "HijriCalendar.38060274.chunk.js.map": "/PrayerTimings/static/js/HijriCalendar.38060274.chunk.js.map",
     "Home.35125036.chunk.css.map": "/PrayerTimings/static/css/Home.35125036.chunk.css.map",
-    "Home.dfb6ef49.chunk.js.map": "/PrayerTimings/static/js/Home.dfb6ef49.chunk.js.map",
+    "Home.2dc69def.chunk.js.map": "/PrayerTimings/static/js/Home.2dc69def.chunk.js.map",
     "LearnArabic.ee0952e3.chunk.js.map": "/PrayerTimings/static/js/LearnArabic.ee0952e3.chunk.js.map",
     "Page404.fae44d2a.chunk.js.map": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js.map",
     "TasbihCounter.5d160c62.chunk.js.map": "/PrayerTimings/static/js/TasbihCounter.5d160c62.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.551feeb1.css",
-    "static/js/main.46c49738.js"
+    "static/js/main.4b0d4368.js"
   ]
 }
