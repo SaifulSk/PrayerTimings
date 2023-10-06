@@ -80,6 +80,7 @@ export default function UpcomingPrayerTime({type}:any) {
     useEffect(()=>{
 
         findUpcomingWaqt()
+        // console.log(moment().diff(moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm")))
 
         return () => {
             clearInterval(intervalId)
@@ -90,7 +91,13 @@ export default function UpcomingPrayerTime({type}:any) {
     return (
         <>
             <div className="highlight-text content">
-                Current Waqt <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")]["End"] || moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
+                {
+                    dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"] && moment().diff(moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm"))<0 ?
+                    <>
+                        Current Waqt <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"] ? moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm").format("h:mm a") : moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
+                    </>
+                    : null
+                }
             </div>
             <h3 className="page-title">Upcoming Prayer</h3>
             <div className="content text-white">
