@@ -10,6 +10,7 @@ export default function UpcomingPrayerTime({type}:any) {
     const [remainingTime, setRemainingTime] = useState<any>()
     const [intervalId, setIntervalId] = useState<any>()
     const [showAzanModal, setShowAzanModal] = useState<boolean>(false)
+    const [showCurrentWaqt, setShowCurrentWaqt] = useState<boolean>(false)
     const dataa:any = data
 
     const pad = (num: any) => {
@@ -60,6 +61,7 @@ export default function UpcomingPrayerTime({type}:any) {
         let tm = moment(x[month][day][y]["Start"], "HH:mm").format("h:mm a")
         setUpcomingTime(tm)
         countDown(tm)
+        return tm
     }
 
     const countDown = (tm: any) => {
@@ -79,8 +81,15 @@ export default function UpcomingPrayerTime({type}:any) {
 
     useEffect(()=>{
 
-        findUpcomingWaqt()
-        // console.log(moment().diff(moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm")))
+        let cWaqt = getCurrentWaqt()
+        let uWaqt = findUpcomingWaqt()
+        let diff = dataa[moment().format("MMMM")][moment().format("D")][cWaqt]["End"] ? moment().diff(moment(dataa[moment().format("MMMM")][moment().format("D")][cWaqt]["End"], "HH:mm")) : moment().diff(moment(uWaqt,"h:mm a").subtract(1,"minutes"))
+        console.log({diff})
+        if(diff<0) {
+            setShowCurrentWaqt(true)
+        } else {
+            
+        }
 
         return () => {
             clearInterval(intervalId)
@@ -92,7 +101,8 @@ export default function UpcomingPrayerTime({type}:any) {
         <>
             <div className="highlight-text content">
                 {
-                    dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"] && moment().diff(moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm"))<0 ?
+                    showCurrentWaqt
+                    ?
                     <>
                         Current Waqt <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"] ? moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm").format("h:mm a") : moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
                     </>
@@ -109,7 +119,7 @@ export default function UpcomingPrayerTime({type}:any) {
             <div className="content text-white">
                 Time Left: <span>{remainingTime}</span>
             </div>
-
+            
             {
                 showAzanModal && waqt && waqt!="Tahajjud" &&
                 <AzanModal
