@@ -99,7 +99,7 @@ function Sidebar() {
             {/*Navbar*/}
             <nav id="sidebar" className="mCustomScrollbar _mCS_1 mCS-autoHide mCS_no_scrollbar" style={{ overflow: 'visible' }}>
                 <div id="dismiss" onClick={() => toogleSideBarOnOff(false)}>
-                    <i className="fa fa-arrow-left" />
+                    <i className="fa fa-times" />
                 </div>
                 <div className="sidebar-header" style={{fontWeight: "bold"}}>
                     {/* <img src="/PrayerTimings/images/logo.png" alt="" /> */}
@@ -148,7 +148,7 @@ function Sidebar() {
                         <span className="open-nav"
                             onClick={() => toogleSideBarOnOff(true)}
                         >
-                        <img src="/PrayerTimings/images/menu.svg" alt="menu" />
+                        <img src="/PrayerTimings/images/menu.png" alt="menu" />
                         </span>
                     </button>
                     <button className="navbar-toggler btn-none d-inline-block ml-auto user-image" type="button" onClick={goToHome}>
