@@ -109,6 +109,9 @@ export default function UpcomingPrayerTime({type}:any) {
                     {getCurrentWaqt()!="Tahajjud" && 
                         <>
                             <h3 className="page-title">Current Prayer Rakats</h3>
+                            <div className="content text-white">
+                                Waqt: <span>{getCurrentWaqt()}</span>
+                            </div>
                             {namaj[getCurrentWaqt()].map((x:any, i: any)=>
                                 <div className="content text-white" key={i}>
                                     {parse(x)}
