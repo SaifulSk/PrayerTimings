@@ -3184,7 +3184,7 @@ a.article:hover {
     }
 
     h3.page-title {
-      margin: 30px 0 15px 0;
+      margin: 20px 0 10px 0;
       font-size: x-large;
     }
 
@@ -3309,5 +3309,5 @@ a.article:hover {
     .highlight-text {
       color: #ffc157;
       /* text-align: center; */
-      padding-top: 15px;
+      padding-top: 5px;
     }
