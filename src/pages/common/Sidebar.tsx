@@ -5,12 +5,14 @@ import ConfirmModal from './ConfirmModal';
 import moment from 'moment';
 import RamadanModal from '../home/components/RamadanModal';
 import InsightsModal from '../home/components/InsightsModal';
+import { useToaster } from '../../_common/hooks/common/appToasterHook';
 
 function Sidebar() {
 
     const [showConfirmModal,setShowConfirmModal] = useState<boolean>(false)
     const [showRamadanModal,setShowRamadanModal] = useState<boolean>(false)
     const navigate = useNavigate()
+    const toast = useToaster()
 
     const [showInsightsModal, setShowInsightsModal] = useState<boolean>(false)
 
@@ -46,6 +48,19 @@ function Sidebar() {
 
     const goToHome = () => {
         navigate(URLS.HOME)
+    }
+
+    const checkLocationAndGotoGMap = () => {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(gotoGMap,()=>toast.error("Please turn on the location"));
+        } else {     
+        }
+    }
+
+    const gotoGMap = (position: any) => {
+        console.log({position})
+        window.open("https://www.google.com/maps/search/mosque+nearby/@"+position.coords.latitude + 
+        "," + position.coords.longitude,"_blank")
     }
 
     useEffect(()=>{
@@ -139,6 +154,9 @@ function Sidebar() {
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <a href="https://muslimnames.com" target="_blank">Muslim Names</a>
+                    </li>
+                    <li onClick={() => toogleSideBarOnOff(false)}>
+                        <a onClick={checkLocationAndGotoGMap}>Mosques Near Me</a>
                     </li>
                 </ul>
             </nav>
