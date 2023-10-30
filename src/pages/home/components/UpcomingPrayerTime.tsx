@@ -3,6 +3,8 @@ import data from '../../../config/data/data.json'
 import moment from 'moment';
 import getCurrentWaqt from '../../../config/functions';
 import AzanModal from './AzanModal';
+import { WAQT_NAMAJ } from '../../../config';
+import parse from 'html-react-parser'
 
 export default function UpcomingPrayerTime({type}:any) {
     const [upcomingTime, setUpcomingTime] = useState<any>()
@@ -12,6 +14,7 @@ export default function UpcomingPrayerTime({type}:any) {
     const [showAzanModal, setShowAzanModal] = useState<boolean>(false)
     const [showCurrentWaqt, setShowCurrentWaqt] = useState<boolean>(false)
     const dataa:any = data
+    const namaj:any = WAQT_NAMAJ
 
     const pad = (num: any) => {
         return ("0"+num).slice(-2)
@@ -99,6 +102,16 @@ export default function UpcomingPrayerTime({type}:any) {
 
     return (
         <>
+            {getCurrentWaqt()!="Tahajjud" && 
+                <>
+                    <h3 className="page-title">Current Prayer Rakats</h3>
+                    {namaj[getCurrentWaqt()].map((x:any, i: any)=>
+                        <div className="content text-white" key={i}>
+                            {parse(x)}
+                        </div>
+                    )}
+                </>
+            }
             <div className="highlight-text content">
                 {
                     showCurrentWaqt

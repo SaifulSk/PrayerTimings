@@ -22,6 +22,14 @@ export const WAQT_OPTIONS = [
     {value: "Tahajjud", label: "Tahajjud"},
 ]
 
+export const WAQT_NAMAJ = {
+    "Fajr": ["Sunnah Muakkadah: <span>2 Rakats</span>", "Farz: <span>2 Rakats</span>"],
+    "Duhr": ["Sunnah Muakkadah: <span>4 Rakats</span>", "Farz: <span>4 Rakats</span>", "Sunnah Muakkadah: <span>2 Rakats</span>",  "Nawafil: <span>2 Rakats</span> (Optional)"],
+    "Asr": ["Sunnah Ghair Muakkadah: <span>4 Rakats</span> (Optional)", "Farz: <span>4 Rakats</span>"],
+    "Maghrib": ["Farz: <span>3 Rakats</span>", "Sunnah Muakkadah: <span>2 Rakats</span>",  "Nawafil: <span>2 Rakats</span> (Optional)"],
+    "Isha": ["Sunnah Ghair Muakkadah: <span>4 Rakats</span> (Optional)", "Farz: <span>4 Rakats</span>", "Sunnah Muakkadah: <span>2 Rakats</span>",  "Nawafil: <span>2 Rakats</span> (Optional)", "Witr: <span>3 Rakats</span>"],
+}
+
 export const LOCATIONS =  [
     {label: "Amritsar", value: "+00:53:56"},
     {label: "Ayodhya", value: "+00:24:24"},

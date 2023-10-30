@@ -1659,7 +1659,7 @@ a.article:hover {
   .form-box-new .form-label {
     color: #fff;
     line-height: 1;
-    margin: 25px 0 15px;
+    /* margin: 25px 0 15px; */
   }
   
   .form-control {
@@ -3308,6 +3308,6 @@ a.article:hover {
 
     .highlight-text {
       color: #ffc157;
-      text-align: center;
+      /* text-align: center; */
       padding-top: 15px;
     }
