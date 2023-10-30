@@ -50,17 +50,22 @@ function Sidebar() {
         navigate(URLS.HOME)
     }
 
-    const checkLocationAndGotoGMap = () => {
+    const checkLocation = (type: any) => {
         if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(gotoGMap,()=>toast.error("Please turn on the location"));
+            navigator.geolocation.getCurrentPosition(type=="mosque" ? gotoGMap : gotoQiblaDir,()=>toast.error("Please turn on the location"));
         } else {     
         }
     }
 
     const gotoGMap = (position: any) => {
-        console.log({position})
-        window.open("https://www.google.com/maps/search/mosque+nearby/@"+position.coords.latitude + 
+        // console.log({position})
+        window.open("https://maps.google.com/search/mosque+nearby/@"+position.coords.latitude + 
         "," + position.coords.longitude,"_blank")
+    }
+
+    const gotoQiblaDir = (position: any) => {
+        console.log({position})
+        window.open("https://myislam.org/qibla-ar","_blank")
     }
 
     useEffect(()=>{
@@ -131,7 +136,7 @@ function Sidebar() {
                         <a href="https://sunnah.com" target="_blank">Hadiths</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a href="https://myislam.org/qibla-ar" target="_blank">Qibla Direction</a>
+                        <a onClick={()=>checkLocation("qibla")}>Qibla Direction</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
                         <Link to={URLS.DUAS}>Duas</Link>
@@ -156,7 +161,7 @@ function Sidebar() {
                         <a href="https://muslimnames.com" target="_blank">Muslim Names</a>
                     </li>
                     <li onClick={() => toogleSideBarOnOff(false)}>
-                        <a onClick={checkLocationAndGotoGMap}>Mosques Near Me</a>
+                        <a onClick={()=>checkLocation("mosque")}>Mosques Near Me</a>
                     </li>
                 </ul>
             </nav>

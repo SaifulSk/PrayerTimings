@@ -10,7 +10,7 @@ interface AzanModalProps {
 
 export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModalProps) {
 
-    const vidRef = useRef(null)
+    const vidRef:any = useRef(null)
     const [crossActive, setCrossActive] = useState<boolean>(false)
 
     const btnClicked = () => {
@@ -93,7 +93,7 @@ export default function AzanModal({ shouldShow, closeAzanModal, waqt }: AzanModa
                             }
                             Your browser does not support the video tag.
                         </video>
-                        <h4 className="msg-text">Click the above video to listen to the Adhan</h4>
+                        {vidRef?.current?.muted==true && <h4 className="msg-text">Click the above video to listen to the Adhan</h4>}
                         {/* <button id="play_button" onClick={()=>btnClicked()}>Play</button> */}
                         {/* <i className="fa fa-volume-up" onClick={()=>btnClicked("on")}/> */}
                     </div>
