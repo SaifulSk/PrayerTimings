@@ -102,26 +102,26 @@ export default function UpcomingPrayerTime({type}:any) {
 
     return (
         <>
-            {getCurrentWaqt()!="Tahajjud" && 
+            {
+                showCurrentWaqt
+                ?
                 <>
-                    <h3 className="page-title">Current Prayer Rakats</h3>
-                    {namaj[getCurrentWaqt()].map((x:any, i: any)=>
-                        <div className="content text-white" key={i}>
-                            {parse(x)}
-                        </div>
-                    )}
-                </>
-            }
-            <div className="highlight-text content">
-                {
-                    showCurrentWaqt
-                    ?
-                    <>
+                    {getCurrentWaqt()!="Tahajjud" && 
+                        <>
+                            <h3 className="page-title">Current Prayer Rakats</h3>
+                            {namaj[getCurrentWaqt()].map((x:any, i: any)=>
+                                <div className="content text-white" key={i}>
+                                    {parse(x)}
+                                </div>
+                            )}
+                        </>
+                    }
+                    <div className="highlight-text content">
                         Current Waqt <span>({getCurrentWaqt()})</span> ends at <span>{dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"] ? moment(dataa[moment().format("MMMM")][moment().format("D")][getCurrentWaqt()]["End"], "HH:mm").format("h:mm a") : moment(upcomingTime,"h:mm a").subtract(1,"minutes").format("h:mm a")}</span>
-                    </>
-                    : null
-                }
-            </div>
+                    </div>
+                </>
+                : null
+            }
             <h3 className="page-title">Upcoming Prayer</h3>
             <div className="content text-white">
                 Waqt: <span>{waqt}</span>
