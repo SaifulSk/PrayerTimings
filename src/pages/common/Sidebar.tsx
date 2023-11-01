@@ -59,7 +59,7 @@ function Sidebar() {
 
     const gotoGMap = (position: any) => {
         // console.log({position})
-        window.open("https://maps.google.com/search/mosque+nearby/@"+position.coords.latitude + 
+        window.open("https://www.google.com/maps/search/mosque+nearby/@"+position.coords.latitude + 
         "," + position.coords.longitude,"_blank")
     }
 
