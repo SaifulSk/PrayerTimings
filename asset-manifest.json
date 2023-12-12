@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PrayerTimings/static/css/main.3a653933.css",
-    "main.js": "/PrayerTimings/static/js/main.cc76c348.js",
+    "main.js": "/PrayerTimings/static/js/main.cec5847e.js",
     "NamesOfAllah.js": "/PrayerTimings/static/js/NamesOfAllah.60cbab2f.chunk.js",
     "HijriCalendar.js": "/PrayerTimings/static/js/HijriCalendar.647b08b7.chunk.js",
     "Home.css": "/PrayerTimings/static/css/Home.35125036.chunk.css",
@@ -19,7 +19,7 @@
     "static/js/824.6a39a197.chunk.js": "/PrayerTimings/static/js/824.6a39a197.chunk.js",
     "index.html": "/PrayerTimings/index.html",
     "main.3a653933.css.map": "/PrayerTimings/static/css/main.3a653933.css.map",
-    "main.cc76c348.js.map": "/PrayerTimings/static/js/main.cc76c348.js.map",
+    "main.cec5847e.js.map": "/PrayerTimings/static/js/main.cec5847e.js.map",
     "NamesOfAllah.60cbab2f.chunk.js.map": "/PrayerTimings/static/js/NamesOfAllah.60cbab2f.chunk.js.map",
     "HijriCalendar.647b08b7.chunk.js.map": "/PrayerTimings/static/js/HijriCalendar.647b08b7.chunk.js.map",
     "Home.35125036.chunk.css.map": "/PrayerTimings/static/css/Home.35125036.chunk.css.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.3a653933.css",
-    "static/js/main.cc76c348.js"
+    "static/js/main.cec5847e.js"
   ]
 }
