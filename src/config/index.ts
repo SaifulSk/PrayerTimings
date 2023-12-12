@@ -1,8 +1,8 @@
 export const ZIKRS = {
     "Bismillah": "In the name of Allah",
-    "Subhanallah": "Allah is free from imperfection",
     "Alhamdulillah": "All praise is due to Allah",
     "Allahu Akbar": "Allah is the Greatest",
+    "Subhanallah": "Allah is free from imperfection",
     "La ilaha illallah": "There is none worthy of worship except Allah",
     "Subhan-Allahi wa bihamdih": "Allah is free from imperfection",
     "Astaghfirullah": "I seek forgiveness from Allah",
