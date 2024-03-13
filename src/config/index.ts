@@ -22,6 +22,12 @@ export const WAQT_OPTIONS = [
     {value: "Tahajjud", label: "Tahajjud"},
 ]
 
+export const TIMING_VIEW_OPTIONS = [
+    {value: "Daywise", label: "Daywise"},
+    {value: "Weekwise", label: "Weekwise"},
+    {value: "Monthwise", label: "Monthwise"},
+]
+
 export const WAQT_NAMAJ = {
     "Fajr": ["Sunnah Muakkadah: <span>2 Rakats</span>", "Farz: <span>2 Rakats</span>"],
     "Duhr": ["Sunnah Muakkadah: <span>4 Rakats</span>", "Farz: <span>4 Rakats</span>", "Sunnah Muakkadah: <span>2 Rakats</span>",  "Nawafil: <span>2 Rakats</span> (Optional)"],
