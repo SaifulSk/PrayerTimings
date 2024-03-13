@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/PrayerTimings/static/css/main.3a653933.css",
-    "main.js": "/PrayerTimings/static/js/main.94b1e151.js",
+    "main.css": "/PrayerTimings/static/css/main.787cb099.css",
+    "main.js": "/PrayerTimings/static/js/main.706ac016.js",
     "NamesOfAllah.js": "/PrayerTimings/static/js/NamesOfAllah.60cbab2f.chunk.js",
     "HijriCalendar.js": "/PrayerTimings/static/js/HijriCalendar.c5e15227.chunk.js",
     "Home.css": "/PrayerTimings/static/css/Home.35125036.chunk.css",
-    "Home.js": "/PrayerTimings/static/js/Home.a3473318.chunk.js",
+    "Home.js": "/PrayerTimings/static/js/Home.480d07bb.chunk.js",
     "LearnArabic.js": "/PrayerTimings/static/js/LearnArabic.977be106.chunk.js",
     "Page404.js": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js",
     "TasbihCounter.js": "/PrayerTimings/static/js/TasbihCounter.d019e771.chunk.js",
@@ -15,15 +15,15 @@
     "static/js/426.0c3b1ce0.chunk.js": "/PrayerTimings/static/js/426.0c3b1ce0.chunk.js",
     "static/js/525.b9a61ec2.chunk.js": "/PrayerTimings/static/js/525.b9a61ec2.chunk.js",
     "static/js/540.41b3cfc4.chunk.js": "/PrayerTimings/static/js/540.41b3cfc4.chunk.js",
-    "static/js/466.4ba91469.chunk.js": "/PrayerTimings/static/js/466.4ba91469.chunk.js",
+    "static/js/466.fad2dc5d.chunk.js": "/PrayerTimings/static/js/466.fad2dc5d.chunk.js",
     "static/js/824.4ff97289.chunk.js": "/PrayerTimings/static/js/824.4ff97289.chunk.js",
     "index.html": "/PrayerTimings/index.html",
-    "main.3a653933.css.map": "/PrayerTimings/static/css/main.3a653933.css.map",
-    "main.94b1e151.js.map": "/PrayerTimings/static/js/main.94b1e151.js.map",
+    "main.787cb099.css.map": "/PrayerTimings/static/css/main.787cb099.css.map",
+    "main.706ac016.js.map": "/PrayerTimings/static/js/main.706ac016.js.map",
     "NamesOfAllah.60cbab2f.chunk.js.map": "/PrayerTimings/static/js/NamesOfAllah.60cbab2f.chunk.js.map",
     "HijriCalendar.c5e15227.chunk.js.map": "/PrayerTimings/static/js/HijriCalendar.c5e15227.chunk.js.map",
     "Home.35125036.chunk.css.map": "/PrayerTimings/static/css/Home.35125036.chunk.css.map",
-    "Home.a3473318.chunk.js.map": "/PrayerTimings/static/js/Home.a3473318.chunk.js.map",
+    "Home.480d07bb.chunk.js.map": "/PrayerTimings/static/js/Home.480d07bb.chunk.js.map",
     "LearnArabic.977be106.chunk.js.map": "/PrayerTimings/static/js/LearnArabic.977be106.chunk.js.map",
     "Page404.fae44d2a.chunk.js.map": "/PrayerTimings/static/js/Page404.fae44d2a.chunk.js.map",
     "TasbihCounter.d019e771.chunk.js.map": "/PrayerTimings/static/js/TasbihCounter.d019e771.chunk.js.map",
@@ -33,11 +33,11 @@
     "426.0c3b1ce0.chunk.js.map": "/PrayerTimings/static/js/426.0c3b1ce0.chunk.js.map",
     "525.b9a61ec2.chunk.js.map": "/PrayerTimings/static/js/525.b9a61ec2.chunk.js.map",
     "540.41b3cfc4.chunk.js.map": "/PrayerTimings/static/js/540.41b3cfc4.chunk.js.map",
-    "466.4ba91469.chunk.js.map": "/PrayerTimings/static/js/466.4ba91469.chunk.js.map",
+    "466.fad2dc5d.chunk.js.map": "/PrayerTimings/static/js/466.fad2dc5d.chunk.js.map",
     "824.4ff97289.chunk.js.map": "/PrayerTimings/static/js/824.4ff97289.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a653933.css",
-    "static/js/main.94b1e151.js"
+    "static/css/main.787cb099.css",
+    "static/js/main.706ac016.js"
   ]
 }
