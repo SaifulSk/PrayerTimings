@@ -54,6 +54,9 @@ export default function SetLocationModal({ onClose, shouldShow }: SetLocationMod
             >
                 <Modal.Header>
                     Set Location
+                    <button type="button" className="" onClick={onClose} style={{background:"none",border:"none",color:"#fff"}}>
+                        <i className="fa fa-times" />
+                    </button>
                 </Modal.Header>
                 <Modal.Body>
                     <div className="modal-body content">

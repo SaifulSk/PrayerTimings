@@ -14,6 +14,7 @@ export const ZIKRS = {
 }
 
 export const WAQT_OPTIONS = [
+    {value: "All", label: "All"},
     {value: "Fajr", label: "Fajr"},
     {value: "Duhr", label: "Duhr"},
     {value: "Asr", label: "Asr"},

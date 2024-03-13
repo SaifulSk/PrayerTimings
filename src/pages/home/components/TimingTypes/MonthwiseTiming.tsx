@@ -26,7 +26,7 @@ export default function MonthwiseTiming() {
     const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<MonthwiseTimingValues>({
         resolver: yupResolver(MonthwiseTimingSchema),
         defaultValues: {
-            date: new Date(),
+            date: new Date(new Date().getFullYear(), new Date().getMonth(), 1),
             waqt: '',
         },
     })
@@ -72,14 +72,17 @@ export default function MonthwiseTiming() {
                                 <DateInput
                                     onChange={(e:any) => {
                                         onChange(e)
+                                        console.log({e})
                                     }}
                                     onBlur={onBlur}
                                     value={value}
                                     // maxDate={new Date()}
-                                    dateFormat={"dd-MMMM-yyyy"}
+                                    // selected={new Date()}
+                                    showMonthYearPicker
+                                    dateFormat="MMMM-yyyy"
                                     inputRef={ref}
                                     // error={errors.date}
-                                    placeholder="Select Date"
+                                    placeholder="Select Month"
                                 />
                             )}
                         />
@@ -117,6 +120,7 @@ export default function MonthwiseTiming() {
                         shouldShow={showStartEndTimeModal}
                         formValues={formValues}
                         onClose={onCloseStartEndTimeModal}
+                        type="Monthwise"
                     />
                 }
             </form>

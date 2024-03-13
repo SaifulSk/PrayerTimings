@@ -20,6 +20,10 @@ interface DateInputProps {
   minDate?: Date;
   disabled?: boolean;
   dark?: boolean;
+  showMonthYearPicker?: any;
+  showWeekNumbers?: any;
+  showWeekPicker?: any;
+  inline?: any;
 }
 
 function DateInput({
@@ -37,6 +41,10 @@ function DateInput({
   minDate,
   disabled,
   dark,
+  showMonthYearPicker,
+  showWeekNumbers,
+  showWeekPicker,
+  inline,
 }: DateInputProps) {
 
   const datePickerContainerClass = classnames({
@@ -63,6 +71,10 @@ function DateInput({
         dateFormat={dateFormat}
         className="form-control"
         autoComplete={"no-auto-complete_" + uuidv4()}
+        showMonthYearPicker={showMonthYearPicker}
+        showWeekNumbers={showWeekNumbers}
+        showWeekPicker={showWeekPicker}
+        inline={inline}
       />
       <i className="date-icon"></i>
       {

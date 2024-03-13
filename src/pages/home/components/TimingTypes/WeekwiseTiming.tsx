@@ -26,7 +26,7 @@ export default function WeekwiseTiming() {
     const { control, formState: { errors }, formState, setValue, handleSubmit } = useForm<WeekwiseTimingValues>({
         resolver: yupResolver(WeekwiseTimingSchema),
         defaultValues: {
-            date: new Date(),
+            date: new Date(new Date().setDate(new Date().getDate() - new Date().getDay())),
             waqt: '',
         },
     })
@@ -72,14 +72,17 @@ export default function WeekwiseTiming() {
                                 <DateInput
                                     onChange={(e:any) => {
                                         onChange(e)
+                                        console.log({e})
                                     }}
                                     onBlur={onBlur}
                                     value={value}
                                     // maxDate={new Date()}
-                                    dateFormat={"dd-MMMM-yyyy"}
+                                    dateFormat="I, R"
+                                    showWeekNumbers
+                                    showWeekPicker
                                     inputRef={ref}
                                     // error={errors.date}
-                                    placeholder="Select Date"
+                                    placeholder="Select Week"
                                 />
                             )}
                         />
@@ -117,6 +120,7 @@ export default function WeekwiseTiming() {
                         shouldShow={showStartEndTimeModal}
                         formValues={formValues}
                         onClose={onCloseStartEndTimeModal}
+                        type="Weekwise"
                     />
                 }
             </form>

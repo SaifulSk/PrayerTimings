@@ -18,7 +18,8 @@ const DaywiseTimingSchema = yup.object().shape({
         .string(),
     waqt: yup
         .object()
-        .nullable(),
+        .nullable()
+        .required('Please select waqt'),
 })
 
 export default function DaywiseTiming() {
@@ -102,7 +103,7 @@ export default function DaywiseTiming() {
                                     inputRef={ref}
                                     options={WAQT_OPTIONS}
                                     value={value}
-                                    // error={errors.waqt}
+                                    error={errors.waqt}
                                     placeholder="Select Waqt"
                                 />
                             )}
@@ -117,6 +118,7 @@ export default function DaywiseTiming() {
                         shouldShow={showStartEndTimeModal}
                         formValues={formValues}
                         onClose={onCloseStartEndTimeModal}
+                        type="Daywise"
                     />
                 }
             </form>

@@ -39,6 +39,10 @@ export default function NamajTimingForm() {
     const radioChange = (e:any) => {
         setSelectedTimingType(e)
     }
+
+    const onCloseSetLocationModal = () => {
+        setShowSetLocationModal(false)
+    }
     
     useEffect(()=>{
         
@@ -84,6 +88,12 @@ export default function NamajTimingForm() {
                     <WeekwiseTiming />
                     :
                     <MonthwiseTiming />
+            }
+            {   showSetLocationModal &&
+                <SetLocationModal
+                    shouldShow={showSetLocationModal}
+                    onClose={onCloseSetLocationModal}
+                />
             }
         </>
     )
