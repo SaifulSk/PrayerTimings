@@ -3193,6 +3193,11 @@ a.article:hover {
       font-size: x-large;
     }
 
+    h4.page-title {
+      margin: 7px 0 5px 0;
+      font-size: large;
+    }
+
     .content span {
       font-weight: bold;
     }
@@ -3315,4 +3320,15 @@ a.article:hover {
       color: #ffc157;
       /* text-align: center; */
       padding-top: 5px;
+    }
+
+    .waqt-card {
+      border: solid black 2px;
+      border-radius: 20px;
+      font-size: 15px;
+      border-bottom: 0;
+      /* border-right: 0; */
+      margin: 3px;
+      width: 48%;
+      padding-left: 15px;
     }
