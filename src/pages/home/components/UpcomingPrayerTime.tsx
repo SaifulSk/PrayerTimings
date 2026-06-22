@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import data from "../../../config/data/data.json";
 import moment from "moment";
 import getCurrentWaqt from "../../../config/functions";
@@ -13,6 +13,7 @@ export default function UpcomingPrayerTime({ type }: any) {
   const [intervalId, setIntervalId] = useState<any>();
   const [showAzanModal, setShowAzanModal] = useState<boolean>(false);
   const [showCurrentWaqt, setShowCurrentWaqt] = useState<boolean>(false);
+  const intervalRef = useRef<any>(null);
   const dataa: any = data;
   const namaj: any = WAQT_NAMAJ;
 
@@ -67,21 +68,29 @@ export default function UpcomingPrayerTime({ type }: any) {
   };
 
   const countDown = (tm: any) => {
-    let sec = (moment(tm, "h:mm a").diff(moment(), "seconds") + 86400) % 86400;
-    // let sec = 3
-    console.log({ sec });
+    if (intervalRef.current) clearInterval(intervalRef.current);
+    let targetMoment = moment(tm, "h:mm a");
+    if (targetMoment.diff(moment(), "seconds") < 0) {
+      targetMoment.add(1, "days");
+    }
+
     let id = setInterval(() => {
-      setIntervalId(id);
-      setRemainingTime(hhmmss(sec));
-      sec--;
-      if (sec < 0) {
+      let sec = targetMoment.diff(moment(), "seconds");
+      if (sec < -60) {
+        clearInterval(id);
+        findUpcomingWaqt();
+      } else if (sec <= 0) {
         clearInterval(id);
         openAzanModal();
+      } else {
+        setRemainingTime(hhmmss(sec));
       }
     }, 1000);
+    intervalRef.current = id;
+    setIntervalId(id);
   };
 
-  useEffect(() => {
+  const refreshData = () => {
     let cWaqt = getCurrentWaqt();
     let uWaqt = findUpcomingWaqt();
     let diff = dataa[moment().format("MMMM")][moment().format("D")][cWaqt][
@@ -94,23 +103,26 @@ export default function UpcomingPrayerTime({ type }: any) {
           )
         )
       : moment().diff(moment(uWaqt, "h:mm a").subtract(1, "minutes"));
-    console.log(
-      { diff },
-      dataa[moment().format("MMMM")][moment().format("D")][cWaqt]["End"],
-      moment().diff(
-        moment(
-          dataa[moment().format("MMMM")][moment().format("D")][cWaqt]["End"],
-          "HH:mm"
-        )
-      )
-    );
     if (diff < 0) {
       setShowCurrentWaqt(true);
     } else {
+      setShowCurrentWaqt(false);
     }
+  };
+
+  useEffect(() => {
+    refreshData();
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === "visible") {
+        refreshData();
+      }
+    };
+    document.addEventListener("visibilitychange", handleVisibilityChange);
 
     return () => {
-      clearInterval(intervalId);
+      if (intervalRef.current) clearInterval(intervalRef.current);
+      document.removeEventListener("visibilitychange", handleVisibilityChange);
     };
   }, []);
 

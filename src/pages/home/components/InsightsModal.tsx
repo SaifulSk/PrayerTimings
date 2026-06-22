@@ -23,7 +23,7 @@ export default function InsightsModal({ shouldShow, setShowInsightsModal }: Insi
                 show={shouldShow}
                 backdrop="static"
                 keyboard={false}
-                // className="dark-modal"
+                className="dark-modal"
                 centered
                 contentClassName='custom-modal'
             >
